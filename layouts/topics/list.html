@@ -1,0 +1,17 @@
+{{ define "main" }}
+<div class="container page-head">
+  <h1 class="page-title">Core Ideas</h1>
+  <div class="prose">{{ .Content }}</div>
+</div>
+<div class="container">
+  <div class="pillars">
+    {{- range .Pages }}
+      <a class="pillar" href="{{ .RelPermalink }}">
+        <span class="pillar__emoji" aria-hidden="true">{{ with .Params.coverEmoji }}{{ . }}{{ else }}🌿{{ end }}</span>
+        <h3>{{ .Title }}</h3>
+        <p>{{ with .Params.summary }}{{ . }}{{ else }}{{ .Summary | plainify | truncate 130 }}{{ end }}</p>
+      </a>
+    {{- end }}
+  </div>
+</div>
+{{ end }}

@@ -2,16 +2,17 @@
 <article class="article">
   <div class="article__container">
     <nav class="breadcrumb" aria-label="Breadcrumb">
-      <a href="{{ site.Home.RelPermalink }}">Home</a><span>/</span>
-      <span>{{ .Title }}</span>
+      <a href="{{ site.Home.RelPermalink }}">Home</a><span>/</span><span>{{ .Title }}</span>
     </nav>
-    <header class="article-header">
-      <h1 class="article-header__title">{{ .Title }}</h1>
-      {{- with .Params.summary }}<p class="article-header__summary">{{ . }}</p>{{ end }}
+    <header>
+      {{- with .Params.coverEmoji }}<div class="article__emoji" aria-hidden="true">{{ . }}</div>{{ end }}
+      <h1 class="article__title">{{ .Title }}</h1>
+      {{- with .Params.summary }}<p class="article__summary">{{ . }}</p>{{ end }}
     </header>
-    <div class="prose" id="articleBody">
-      {{ .Content }}
-    </div>
+    {{- with .TableOfContents }}
+    <details class="toc"><summary>📑 On this page</summary><div class="toc__body">{{ . }}</div></details>
+    {{- end }}
+    <div class="prose">{{ .Content }}</div>
   </div>
 </article>
 {{ end }}

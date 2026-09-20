@@ -5,13 +5,17 @@
 </div>
 <div class="container">
   <div class="card-grid">
-    {{- range .Pages -}}
-      {{- if eq .Section "hospitals" -}}
-        {{ partial "hospital-card.html" . }}
-      {{- else -}}
-        {{ partial "story-card.html" . }}
-      {{- end -}}
-    {{- end -}}
+    {{- range .Pages }}
+      <article class="card">
+        <a class="card__cover" href="{{ .RelPermalink }}" style="--cover-color: {{ with .Params.color }}{{ . }}{{ else }}#3d7a5a{{ end }}">
+          <span class="card__emoji" aria-hidden="true">{{ with .Params.coverEmoji }}{{ . }}{{ else }}🌿{{ end }}</span>
+        </a>
+        <div class="card__body">
+          <h2 class="card__title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+          <p class="card__summary">{{ with .Params.summary }}{{ . }}{{ else }}{{ .Summary | plainify | truncate 110 }}{{ end }}</p>
+        </div>
+      </article>
+    {{- end }}
   </div>
 </div>
 {{ end }}

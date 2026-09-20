@@ -1,14 +1,15 @@
 # =============================================================
-# ChinaCare · China Medical Portal — Hugo site config
-# One-stop platform for international patients seeking care in China:
-# hospital selection, appointment, teleconsultation, payment, follow-up.
+# 中医之道 · The Way of Chinese Medicine
+# A plain-English introduction to Traditional Chinese Medicine (TCM).
+# This branch (master) is a standalone TCM introduction site —
+# separate from the ChinaCare medical portal on the `medical` branch.
 # =============================================================
 
-# GitHub Pages project page: https://<user>.github.io/cmedical/
 baseURL = 'https://pastor17.github.io/cmedical/'
-title = 'ChinaCare'
+title = '中医之道 · The Way of Chinese Medicine'
 languageCode = 'en-US'
 defaultContentLanguage = 'en'
+hasCJKLanguage = true
 summaryLength = 140
 enableEmoji = true
 enableRobotsTXT = true
@@ -16,25 +17,13 @@ disableKinds = ['RSS']
 disableHugoGeneratorInject = true
 
 [params]
-  subtitle = 'Your guide to healthcare in China'
-  description = 'ChinaCare helps international patients access China’s hospitals — choose the right hospital, book an appointment, consult online, understand costs and payment, and plan follow-up care. A one-stop, English-first guide to getting care in China.'
-  author = 'ChinaCare Editorial'
-  siteName = 'ChinaCare'
-  copyright = '© 2026 ChinaCare · Your guide to healthcare in China'
-  defaultCoverEmoji = '🏥'
+  subtitle = 'An introduction to Traditional Chinese Medicine'
+  description = 'A plain-English introduction to Traditional Chinese Medicine (TCM) — what it is, its history, its main practices (acupuncture, herbal medicine, tuina, cupping), and how it is used today alongside modern medicine.'
+  author = '中医之道 Editorial'
+  siteName = '中医之道'
+  copyright = '© 2026 中医之道 · The Way of Chinese Medicine'
+  defaultCoverEmoji = '🌿'
   contactEmail = 'irudder@126.com'
-
-# -------------------------------------------------------------
-# Taxonomies
-#   specialty → medical specialty (oncology, dental, ivf, ...)
-#   stage     → care journey stage (choose/register/consult/pay/visit/recover/prepare)
-#   city      → city (beijing, shanghai, ...)
-# -------------------------------------------------------------
-[taxonomies]
-  specialty = 'specialties'
-  stage = 'stages'
-  city = 'cities'
-  tag = 'tags'
 
 [markup]
   [markup.goldmark]
@@ -46,15 +35,9 @@ disableHugoGeneratorInject = true
     ordered = false
 
 [permalinks]
-  hospitals = '/hospital/:slug/'
-  doctors = '/doctor/:slug/'
-  guides = '/guide/:slug/'
-  cost = '/cost/:slug/'
-  stories = '/story/:slug/'
-  journey = '/journey/:slug/'
-  tcm = '/tcm/:slug/'
+  practices = '/practice/:slug/'
+  topics = '/topic/:slug/'
 
-# Pagination: 12 items per page
 [pagination]
   pagerSize = 12
   path = 'page'

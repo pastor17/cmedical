@@ -1,121 +1,52 @@
 {{ define "main" }}
-{{- $journey := where site.RegularPages "Section" "journey" -}}
-{{- $guides := where site.RegularPages "Section" "guides" -}}
-{{- $hospitals := where site.RegularPages "Section" "hospitals" -}}
-{{- $stories := where site.RegularPages "Section" "stories" -}}
-{{- $specialties := site.Data.specialties -}}
-
 <section class="hero">
   <div class="container hero__inner">
-    <p class="hero__eyebrow">🌏 One-stop guide to healthcare in China</p>
-    <h1 class="hero__title">Get world-class care in China, <span>step by step</span></h1>
+    <p class="hero__eyebrow">🌿 中医之道 · The Way of Chinese Medicine</p>
+    <h1 class="hero__title">A plain-English guide to <span>Traditional Chinese Medicine</span></h1>
     <p class="hero__desc">{{ site.Params.description }}</p>
     <div class="hero__actions">
-      <a class="btn btn--primary" href="{{ "journey/" | relURL }}">🧭 Start Your Journey</a>
-      <a class="btn btn--ghost" href="{{ "specialties/" | relURL }}">Explore Specialties</a>
-    </div>
-    <div class="hero__stats">
-      <div class="stat"><strong>{{ len site.Data.stages }}</strong><span>Journey stages</span></div>
-      <div class="stat"><strong>{{ len $specialties }}</strong><span>Specialties</span></div>
-      <div class="stat"><strong>{{ len $hospitals }}</strong><span>Hospitals</span></div>
-      <div class="stat"><strong>{{ len $stories }}</strong><span>Patient stories</span></div>
+      <a class="btn btn--primary" href="{{ "practices/" | relURL }}">Explore the Practices</a>
+      <a class="btn btn--ghost" href="{{ "topics/" | relURL }}">Learn the Ideas</a>
     </div>
   </div>
 </section>
 
 <section class="section">
   <div class="container">
-    <div class="section__head">
-      <h2 class="section__title">🧭 Your journey, from choosing a hospital to recovery</h2>
-      <a class="section__more" href="{{ "journey/" | relURL }}">Full journey →</a>
-    </div>
-    <p class="section__note">The four questions every international patient asks: which hospital, how to book, how to pay, and what happens after. We walk through each step in plain English.</p>
-    <div class="stage-grid">
-      {{- range site.Data.stages -}}
-        {{- $page := site.GetPage (printf "/journey/%s" .slug) -}}
-        {{- $count := len (where (where site.RegularPages "Params.stages" .slug) "Permalink" .Permalink) -}}
-        <a class="stage-card" href="{{ if $page }}{{ $page.RelPermalink }}{{ else }}{{ "journey/" | relURL }}{{ end }}" style="--card-color: {{ .color }}">
-          <span class="stage-card__emoji" aria-hidden="true">{{ .emoji }}</span>
-          <h2 class="stage-card__name">{{ .name }}</h2>
-          <p class="stage-card__order">Step {{ .order }}</p>
-          <p class="stage-card__desc">{{ .description }}</p>
+    <div class="section__head"><h2 class="section__title">🌿 The main practices</h2><a class="section__more" href="{{ "practices/" | relURL }}">All practices →</a></div>
+    <p class="section__note">TCM is a family of related practices, each with its own purpose. Here are the ones you’re most likely to encounter.</p>
+    <div class="practice-grid">
+      {{- range site.Data.practices }}
+        <a class="practice-card" href="{{ "practices/" | relURL }}#{{ .slug }}" style="--pc: {{ .color }}">
+          <span class="practice-card__emoji" aria-hidden="true">{{ .emoji }}</span>
+          <h2 class="practice-card__name">{{ .name }}</h2>
+          <p class="practice-card__cn">{{ .cn }}</p>
+          <p class="practice-card__desc">{{ .description }}</p>
         </a>
-      {{- end -}}
+      {{- end }}
     </div>
   </div>
 </section>
 
 <section class="section section--alt">
   <div class="container">
-    <div class="section__head">
-      <h2 class="section__title">🩺 Browse by specialty</h2>
-      <a class="section__more" href="{{ "specialties/" | relURL }}">All specialties →</a>
-    </div>
-    <div class="spec-grid">
-      {{- range $specialties -}}
-        {{- $page := site.GetPage (printf "/specialties/%s" .slug) -}}
-        <a class="spec-card" href="{{ if $page }}{{ $page.RelPermalink }}{{ else }}{{ "specialties/" | relURL }}{{ end }}" style="--card-color: {{ .color }}">
-          <span class="spec-card__emoji" aria-hidden="true">{{ .emoji }}</span>
-          <h2 class="spec-card__name">{{ .name }}</h2>
-          <p class="spec-card__desc">{{ .description }}</p>
-        </a>
-      {{- end -}}
+    <div class="section__head"><h2 class="section__title">📖 Core ideas to understand</h2><a class="section__more" href="{{ "topics/" | relURL }}">All topics →</a></div>
+    <div class="pillars">
+      <a class="pillar" href="{{ "topics/" | relURL }}#balance-harmony"><span class="pillar__emoji" aria-hidden="true">⚖️</span><h3>Balance &amp; Harmony</h3><p>Health as the body’s dynamic balance; illness as imbalance to be restored.</p></a>
+      <a class="pillar" href="{{ "topics/" | relURL }}#qi"><span class="pillar__emoji" aria-hidden="true">🔋</span><h3>Qi (生命能量)</h3><p>The vital energy that flows through the body along pathways (meridians).</p></a>
+      <a class="pillar" href="{{ "topics/" | relURL }}#yin-yang"><span class="pillar__emoji" aria-hidden="true">☯️</span><h3>Yin &amp; Yang</h3><p>Complementary opposites; health is their dynamic balance, not their absence.</p></a>
+      <a class="pillar" href="{{ "topics/" | relURL }}#pattern-diagnosis"><span class="pillar__emoji" aria-hidden="true">🗺️</span><h3>Pattern Diagnosis</h3><p>Reading the whole picture — pulse, tongue, symptoms — rather than a single symptom.</p></a>
     </div>
   </div>
 </section>
-
-{{- with $hospitals.ByDate.Reverse -}}
-<section class="section">
-  <div class="container">
-    <div class="section__head">
-      <h2 class="section__title">🏥 Featured hospitals</h2>
-      <a class="section__more" href="{{ "hospitals/" | relURL }}">All hospitals →</a>
-    </div>
-    <div class="card-grid">
-      {{- range first 4 . -}}
-        {{ partial "hospital-card.html" . }}
-      {{- end -}}
-    </div>
-  </div>
-</section>
-{{- end -}}
-
-{{- with $stories.ByDate.Reverse -}}
-<section class="section section--alt">
-  <div class="container">
-    <div class="section__head">
-      <h2 class="section__title">💬 Patient stories</h2>
-      <a class="section__more" href="{{ "stories/" | relURL }}">Read all →</a>
-    </div>
-    <div class="card-grid">
-      {{- range first 3 . -}}
-        {{ partial "story-card.html" . }}
-      {{- end -}}
-    </div>
-  </div>
-</section>
-{{- end -}}
 
 <section class="section">
   <div class="container">
-    <div class="section__head">
-      <h2 class="section__title">⚡ Tools to plan with confidence</h2>
-    </div>
-    <div class="reading-guide">
-      <a class="reading-guide__item" href="{{ "estimator/" | relURL }}"><span class="reading-guide__emoji" aria-hidden="true">🧮</span><h3>Cost Estimator</h3><p>Get an indicative US$ range for your treatment before you book anything.</p></a>
-      <a class="reading-guide__item" href="{{ "journey/" | relURL }}"><span class="reading-guide__emoji" aria-hidden="true">✅</span><h3>Journey Checklist</h3><p>Pick your stage and get a personalized to-do list for your trip.</p></a>
-      <a class="reading-guide__item" href="{{ "contact/" | relURL }}"><span class="reading-guide__emoji" aria-hidden="true">📨</span><h3>Remote Consultation</h3><p>Send your records and get a plan and quote before you fly.</p></a>
-    </div>
-  </div>
-</section>
-
-<section class="section section--alt">
-  <div class="container">
-    <h2 class="section__title">Why treat in China?</h2>
-    <div class="reading-guide">
-      <div class="reading-guide__item"><span class="reading-guide__emoji" aria-hidden="true">💰</span><h3>Lower cost</h3><p>Comparable care at a fraction of the price — especially dental, cosmetic, IVF, orthopedic, and cardiac procedures.</p></div>
-      <div class="reading-guide__item"><span class="reading-guide__emoji" aria-hidden="true">⚡</span><h3>Advanced technology</h3><p>CAR-T, proton therapy, robotic surgery, and high-volume specialist teams handling complex cases.</p></div>
-      <div class="reading-guide__item"><span class="reading-guide__emoji" aria-hidden="true">⏱️</span><h3>Shorter waits</h3><p>Skip months-long public queues and be seen in weeks, with international departments for English service.</p></div>
+    <h2 class="section__title">How TCM fits with modern medicine</h2>
+    <div class="pillars">
+      <div class="pillar"><span class="pillar__emoji" aria-hidden="true">🏥</span><h3>Complementary, not a replacement</h3><p>TCM is best used alongside modern medicine, not instead of it. Serious conditions need modern diagnostics.</p></div>
+      <div class="pillar"><span class="pillar__emoji" aria-hidden="true">🤝</span><h3>Often combined</h3><p>In China, TCM and modern medicine frequently work together — for example, acupuncture alongside surgery or chemotherapy.</p></div>
+      <div class="pillar"><span class="pillar__emoji" aria-hidden="true">💬</span><h3>Communication matters</h3><p>Tell your main treating team about any TCM you use; some herbal products can interact with medications.</p></div>
     </div>
   </div>
 </section>

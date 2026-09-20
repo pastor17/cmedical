@@ -1,10 +1,10 @@
-# Build and deploy the ChinaCare medical portal (Hugo) to GitHub Pages.
-# Triggered by pushes to the `medical` branch.
-name: Deploy ChinaCare site to Pages
+# Build and deploy the 中医之道 TCM introduction site (Hugo) to GitHub Pages.
+# Triggered by pushes to the `master` branch.
+name: Deploy TCM site to Pages
 
 on:
   push:
-    branches: ["medical"]
+    branches: ["master"]
   workflow_dispatch:
 
 permissions:
@@ -24,7 +24,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      # hugo.Data is used by the templates; keep in sync with local dev.
       HUGO_VERSION: 0.165.0
     steps:
       - name: Install Hugo CLI

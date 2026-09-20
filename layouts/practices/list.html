@@ -1,0 +1,24 @@
+{{ define "main" }}
+<div class="container page-head">
+  <h1 class="page-title">Practices</h1>
+  <div class="prose">{{ .Content }}</div>
+</div>
+<div class="container">
+  <div class="practice-grid">
+    {{- range site.Data.practices }}
+      <a class="practice-card" href="#{{ .slug }}" style="--pc: {{ .color }}">
+        <span class="practice-card__emoji" aria-hidden="true">{{ .emoji }}</span>
+        <h2 class="practice-card__name" id="{{ .slug }}">{{ .name }} <small style="color:var(--pc)">{{ .cn }}</small></h2>
+        <p class="practice-card__desc">{{ .description }}</p>
+      </a>
+    {{- end }}
+  </div>
+
+  {{ range .Pages }}
+  <section class="section" style="padding:40px 0">
+    <h2><span aria-hidden="true">{{ with .Params.coverEmoji }}{{ . }}{{ end }}</span> {{ .Title }} <small style="color:var(--muted)">{{ with .Params.cn }}{{ . }}{{ end }}</small></h2>
+    <div class="prose">{{ .Content }}</div>
+  </section>
+  {{ end }}
+</div>
+{{ end }}
