@@ -1,0 +1,24 @@
+<header class="site-header">
+  <div class="container site-header__inner">
+    <a class="brand" href="{{ site.Home.RelPermalink }}">
+      <span class="brand__logo" aria-hidden="true">🏥</span>
+      <span class="brand__text">
+        <strong>{{ site.Title }}</strong>
+        <small>{{ site.Params.subtitle }}</small>
+      </span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="siteNav">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="site-nav" id="siteNav" aria-label="Main navigation">
+      <a href="{{ site.Home.RelPermalink }}">Home</a>
+      <a href="{{ "journey/" | relURL }}">Journey</a>
+      <a href="{{ "specialties/" | relURL }}">Specialties</a>
+      <a href="{{ "hospitals/" | relURL }}">Hospitals</a>
+      <a href="{{ "cost/" | relURL }}">Costs</a>
+      <a href="{{ "stories/" | relURL }}">Patient Stories</a>
+      <a href="{{ "tcm/" | relURL }}">TCM</a>
+      <a class="is-cta" href="{{ "contact/" | relURL }}">Contact / Consult</a>
+    </nav>
+  </div>
+</header>

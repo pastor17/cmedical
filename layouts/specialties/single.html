@@ -1,0 +1,72 @@
+{{ define "main" }}
+{{- $slug := .File.ContentBaseName -}}
+{{- $meta := index (where site.Data.specialties "slug" $slug) 0 -}}
+{{- /* Collect all pages whose specialties list includes this specialty,
+       exclude this landing page, then split by section for aggregation. */ -}}
+{{- $tagged := slice -}}
+{{- range site.RegularPages -}}
+  {{- if and .Params.specialties (in .Params.specialties $slug) -}}
+    {{- $tagged = $tagged | append . -}}
+  {{- end -}}
+{{- end -}}
+{{- $tagged = where $tagged "Permalink" "ne" .Permalink -}}
+{{- $hospitals := where $tagged "Section" "hospitals" -}}
+{{- /* Guides = pages in the 'guides' section plus TCM explainers in the 'tcm' section. */ -}}
+{{- $guides := where $tagged "Section" "in" (slice "guides" "tcm") -}}
+{{- $costs := where $tagged "Section" "cost" -}}
+{{- $stories := where $tagged "Section" "stories" -}}
+
+<article class="article">
+  <div class="article__container" style="max-width:var(--content-width)">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="{{ site.Home.RelPermalink }}">Home</a><span>/</span>
+      <a href="{{ "specialties/" | relURL }}">Specialties</a><span>/</span>
+      <span>{{ .Title }}</span>
+    </nav>
+
+    <header class="article-header">
+      <div class="article-header__emoji" aria-hidden="true">{{ if $meta }}{{ $meta.emoji }}{{ else }}🩺{{ end }}</div>
+      <h1 class="article-header__title">{{ .Title }}</h1>
+      {{- with .Params.summary }}<p class="article-header__summary">{{ . }}</p>{{ end }}
+    </header>
+
+    <div class="prose" id="storyBody">
+      {{ .Content }}
+    </div>
+
+    {{- if gt (len $hospitals) 0 -}}
+    <section class="section" style="padding:30px 0">
+      <div class="section__head"><h2 class="section__title">🏥 Hospitals for {{ if $meta }}{{ $meta.name }}{{ else }}{{ .Title }}{{ end }}</h2></div>
+      <div class="card-grid">{{- range $hospitals }}{{ partial "hospital-card.html" . }}{{- end }}</div>
+    </section>
+    {{- end -}}
+
+    {{- if gt (len $guides) 0 -}}
+    <section class="section section--alt" style="padding:30px 0">
+      <div class="section__head"><h2 class="section__title">📖 Treatment guides</h2></div>
+      <div class="card-grid">{{- range $guides }}{{ partial "story-card.html" . }}{{- end }}</div>
+    </section>
+    {{- end -}}
+
+    {{- if gt (len $costs) 0 -}}
+    <section class="section" style="padding:30px 0">
+      <div class="section__head"><h2 class="section__title">💰 Cost guides</h2></div>
+      <div class="card-grid">{{- range $costs }}{{ partial "story-card.html" . }}{{- end }}</div>
+    </section>
+    {{- end -}}
+
+    {{- if gt (len $stories) 0 -}}
+    <section class="section section--alt" style="padding:30px 0">
+      <div class="section__head"><h2 class="section__title">💬 Patient stories</h2></div>
+      <div class="card-grid">{{- range $stories }}{{ partial "story-card.html" . }}{{- end }}</div>
+    </section>
+    {{- end -}}
+
+    <div class="next-step">
+      <h3>📨 Planning treatment in this area?</h3>
+      <p>Get a remote consultation or a cost estimate tailored to your case.</p>
+      <a class="btn btn--primary" href="{{ "contact/" | relURL }}">Start a consultation</a>
+    </div>
+  </div>
+</article>
+{{ end }}

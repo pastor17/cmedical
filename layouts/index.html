@@ -1,0 +1,122 @@
+{{ define "main" }}
+{{- $journey := where site.RegularPages "Section" "journey" -}}
+{{- $guides := where site.RegularPages "Section" "guides" -}}
+{{- $hospitals := where site.RegularPages "Section" "hospitals" -}}
+{{- $stories := where site.RegularPages "Section" "stories" -}}
+{{- $specialties := site.Data.specialties -}}
+
+<section class="hero">
+  <div class="container hero__inner">
+    <p class="hero__eyebrow">🌏 One-stop guide to healthcare in China</p>
+    <h1 class="hero__title">Get world-class care in China, <span>step by step</span></h1>
+    <p class="hero__desc">{{ site.Params.description }}</p>
+    <div class="hero__actions">
+      <a class="btn btn--primary" href="{{ "journey/" | relURL }}">🧭 Start Your Journey</a>
+      <a class="btn btn--ghost" href="{{ "specialties/" | relURL }}">Explore Specialties</a>
+    </div>
+    <div class="hero__stats">
+      <div class="stat"><strong>{{ len site.Data.stages }}</strong><span>Journey stages</span></div>
+      <div class="stat"><strong>{{ len $specialties }}</strong><span>Specialties</span></div>
+      <div class="stat"><strong>{{ len $hospitals }}</strong><span>Hospitals</span></div>
+      <div class="stat"><strong>{{ len $stories }}</strong><span>Patient stories</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section__head">
+      <h2 class="section__title">🧭 Your journey, from choosing a hospital to recovery</h2>
+      <a class="section__more" href="{{ "journey/" | relURL }}">Full journey →</a>
+    </div>
+    <p class="section__note">The four questions every international patient asks: which hospital, how to book, how to pay, and what happens after. We walk through each step in plain English.</p>
+    <div class="stage-grid">
+      {{- range site.Data.stages -}}
+        {{- $page := site.GetPage (printf "/journey/%s" .slug) -}}
+        {{- $count := len (where (where site.RegularPages "Params.stages" .slug) "Permalink" .Permalink) -}}
+        <a class="stage-card" href="{{ if $page }}{{ $page.RelPermalink }}{{ else }}{{ "journey/" | relURL }}{{ end }}" style="--card-color: {{ .color }}">
+          <span class="stage-card__emoji" aria-hidden="true">{{ .emoji }}</span>
+          <h2 class="stage-card__name">{{ .name }}</h2>
+          <p class="stage-card__order">Step {{ .order }}</p>
+          <p class="stage-card__desc">{{ .description }}</p>
+        </a>
+      {{- end -}}
+    </div>
+  </div>
+</section>
+
+<section class="section section--alt">
+  <div class="container">
+    <div class="section__head">
+      <h2 class="section__title">🩺 Browse by specialty</h2>
+      <a class="section__more" href="{{ "specialties/" | relURL }}">All specialties →</a>
+    </div>
+    <div class="spec-grid">
+      {{- range $specialties -}}
+        {{- $page := site.GetPage (printf "/specialties/%s" .slug) -}}
+        <a class="spec-card" href="{{ if $page }}{{ $page.RelPermalink }}{{ else }}{{ "specialties/" | relURL }}{{ end }}" style="--card-color: {{ .color }}">
+          <span class="spec-card__emoji" aria-hidden="true">{{ .emoji }}</span>
+          <h2 class="spec-card__name">{{ .name }}</h2>
+          <p class="spec-card__desc">{{ .description }}</p>
+        </a>
+      {{- end -}}
+    </div>
+  </div>
+</section>
+
+{{- with $hospitals.ByDate.Reverse -}}
+<section class="section">
+  <div class="container">
+    <div class="section__head">
+      <h2 class="section__title">🏥 Featured hospitals</h2>
+      <a class="section__more" href="{{ "hospitals/" | relURL }}">All hospitals →</a>
+    </div>
+    <div class="card-grid">
+      {{- range first 4 . -}}
+        {{ partial "hospital-card.html" . }}
+      {{- end -}}
+    </div>
+  </div>
+</section>
+{{- end -}}
+
+{{- with $stories.ByDate.Reverse -}}
+<section class="section section--alt">
+  <div class="container">
+    <div class="section__head">
+      <h2 class="section__title">💬 Patient stories</h2>
+      <a class="section__more" href="{{ "stories/" | relURL }}">Read all →</a>
+    </div>
+    <div class="card-grid">
+      {{- range first 3 . -}}
+        {{ partial "story-card.html" . }}
+      {{- end -}}
+    </div>
+  </div>
+</section>
+{{- end -}}
+
+<section class="section">
+  <div class="container">
+    <div class="section__head">
+      <h2 class="section__title">⚡ Tools to plan with confidence</h2>
+    </div>
+    <div class="reading-guide">
+      <a class="reading-guide__item" href="{{ "estimator/" | relURL }}"><span class="reading-guide__emoji" aria-hidden="true">🧮</span><h3>Cost Estimator</h3><p>Get an indicative US$ range for your treatment before you book anything.</p></a>
+      <a class="reading-guide__item" href="{{ "journey/" | relURL }}"><span class="reading-guide__emoji" aria-hidden="true">✅</span><h3>Journey Checklist</h3><p>Pick your stage and get a personalized to-do list for your trip.</p></a>
+      <a class="reading-guide__item" href="{{ "contact/" | relURL }}"><span class="reading-guide__emoji" aria-hidden="true">📨</span><h3>Remote Consultation</h3><p>Send your records and get a plan and quote before you fly.</p></a>
+    </div>
+  </div>
+</section>
+
+<section class="section section--alt">
+  <div class="container">
+    <h2 class="section__title">Why treat in China?</h2>
+    <div class="reading-guide">
+      <div class="reading-guide__item"><span class="reading-guide__emoji" aria-hidden="true">💰</span><h3>Lower cost</h3><p>Comparable care at a fraction of the price — especially dental, cosmetic, IVF, orthopedic, and cardiac procedures.</p></div>
+      <div class="reading-guide__item"><span class="reading-guide__emoji" aria-hidden="true">⚡</span><h3>Advanced technology</h3><p>CAR-T, proton therapy, robotic surgery, and high-volume specialist teams handling complex cases.</p></div>
+      <div class="reading-guide__item"><span class="reading-guide__emoji" aria-hidden="true">⏱️</span><h3>Shorter waits</h3><p>Skip months-long public queues and be seen in weeks, with international departments for English service.</p></div>
+    </div>
+  </div>
+</section>
+{{ end }}

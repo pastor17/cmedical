@@ -1,0 +1,11 @@
+{{ define "main" }}
+<div class="notfound">
+  <div class="notfound__emoji" aria-hidden="true">🩺</div>
+  <h1>Page not found</h1>
+  <p>We couldn’t find that page. Let’s get you back on track.</p>
+  <p style="margin-top:20px">
+    <a class="btn btn--primary" href="{{ "journey/" | relURL }}">Start Your Journey</a>
+    <a class="btn btn--ghost" href="{{ site.Home.RelPermalink }}">Go Home</a>
+  </p>
+</div>
+{{ end }}

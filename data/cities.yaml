@@ -1,0 +1,30 @@
+# City metadata (slug must match `cities` in content front matter)
+- slug: "beijing"
+  name: "Beijing"
+  emoji: "🏛️"
+  description: "Political and medical capital; home to several of China's most prestigious Grade III-A hospitals."
+
+- slug: "shanghai"
+  name: "Shanghai"
+  emoji: "🌆"
+  description: "Financial hub with a dense cluster of top-tier hospitals and strong international departments."
+
+- slug: "guangzhou"
+  name: "Guangzhou"
+  emoji: "🐲"
+  description: "Gateway to the south and Southeast Asia; strong in TCM and general specialty care."
+
+- slug: "shenzhen"
+  name: "Shenzhen"
+  emoji: "🌃"
+  description: "Innovation city with modern, well-equipped tertiary hospitals close to the Hong Kong border."
+
+- slug: "hangzhou"
+  name: "Hangzhou"
+  emoji: "🍃"
+  description: "Scenic city with excellent general and specialty hospitals and a growing international patient base."
+
+- slug: "chengdu"
+  name: "Chengdu"
+  emoji: "🐼"
+  description: "Western China's medical center with strong orthopedics, ophthalmology, and organ transplant programs."

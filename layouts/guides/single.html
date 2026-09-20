@@ -1,0 +1,53 @@
+{{ define "main" }}
+{{- $section := .Section -}}
+{{- $crumbLabel := .Section | strings.Title -}}
+{{- $crumbUrl := .Section | relURL -}}
+<article class="article">
+  <div class="article__container">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="{{ site.Home.RelPermalink }}">Home</a><span>/</span>
+      <a href="{{ $crumbUrl }}">{{ $crumbLabel }}</a><span>/</span>
+      <span>{{ .Title }}</span>
+    </nav>
+
+    <header class="article-header">
+      {{- with .Params.coverEmoji }}<div class="article-header__emoji" aria-hidden="true">{{ . }}</div>{{ end }}
+      <div class="article-header__badges">
+        {{- range .Params.specialties -}}{{ partial "badge.html" (dict "taxonomy" "specialties" "term" .) }}{{- end -}}
+        {{- range .Params.stages -}}{{ partial "badge.html" (dict "taxonomy" "stages" "term" .) }}{{- end -}}
+      </div>
+      <h1 class="article-header__title">{{ .Title }}</h1>
+      {{- with .Params.summary }}<p class="article-header__summary">{{ . }}</p>{{ end }}
+      <div class="article-header__meta">
+        <span>⏱️ {{ .ReadingTime }} min read</span>
+        {{- with .Params.updated }}<span>🗓️ Verified {{ . }}</span>{{ end }}
+      </div>
+    </header>
+
+    {{- with .TableOfContents -}}
+    <details class="toc">
+      <summary>📑 On this page</summary>
+      <div class="toc__body">{{ . }}</div>
+    </details>
+    {{- end -}}
+
+    <div class="prose" id="storyBody">
+      {{ .Content }}
+    </div>
+
+    <div class="story-tools" aria-label="Reading tools">
+      <span class="story-tools__label">Font size</span>
+      <button class="story-tools__btn" id="fontDown" type="button" aria-label="Decrease font size">A−</button>
+      <button class="story-tools__btn" id="fontReset" type="button" aria-label="Reset font size">Standard</button>
+      <button class="story-tools__btn" id="fontUp" type="button" aria-label="Increase font size">A＋</button>
+      <button class="story-tools__btn story-tools__btn--top" id="backToTop" type="button" aria-label="Back to top">↑ Top</button>
+    </div>
+
+    <div class="next-step">
+      <h3>📨 Not sure which path fits you?</h3>
+      <p>Send your records for a remote consultation, or ask us a question — we’ll help you figure out the right next step.</p>
+      <a class="btn btn--primary" href="{{ "contact/" | relURL }}">Get in touch</a>
+    </div>
+  </div>
+</article>
+{{ end }}
