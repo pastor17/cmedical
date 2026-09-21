@@ -1,0 +1,47 @@
+{{ define "main" }}
+{{- $slug := .File.ContentBaseName -}}
+{{- $meta := index (where site.Data.cities "slug" $slug) 0 -}}
+{{- $hospitals := slice -}}
+{{- range site.RegularPages -}}
+  {{- if and (eq .Section "hospitals") .Params.cities (in .Params.cities $slug) -}}
+    {{- $hospitals = $hospitals | append . -}}
+  {{- end -}}
+{{- end -}}
+<article class="article">
+  <div class="article__container" style="max-width:var(--content-width)">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="{{ site.Home.RelPermalink }}">Home</a><span>/</span>
+      <a href="{{ "cities/" | relURL }}">Cities</a><span>/</span><span>{{ with $meta }}{{ .name }}{{ end }}</span>
+    </nav>
+    <header class="article-header">
+      <div class="article-header__emoji" aria-hidden="true">{{ with $meta }}{{ .emoji }}{{ end }}</div>
+      <h1 class="article-header__title">{{ with $meta }}{{ .name }}{{ end }} Hospitals</h1>
+      {{- with $meta.description }}<p class="article-header__summary">{{ . }}</p>{{ end }}
+    </header>
+
+    <section class="section section--alt" style="padding:24px 0">
+      <div class="section__head">
+        <h2 class="section__title">🏥 {{ len $hospitals }} hospitals in {{ with $meta }}{{ .name }}{{ end }}</h2>
+      </div>
+      <div class="card-grid">
+        {{- range $hospitals -}}
+        <article class="card">
+          <div class="card__body" style="padding:22px">
+            <h3 class="card__title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+            <p class="card__summary">{{ with .Params.summary }}{{ . }}{{ end }}</p>
+            <div class="card__meta" style="border:0;padding:0">{{ range .Params.specialties }}{{ partial "badge.html" (dict "taxonomy" "specialties" "term" .) }}{{ end }}</div>
+          </div>
+        </article>
+        {{- end -}}
+      </div>
+    </section>
+
+    <div class="next-step">
+      <h3>🧭 Planning to visit {{ with $meta }}{{ .name }}{{ end }}?</h3>
+      <p>Check the practical guides — visas, flights, accommodation — or start a consultation.</p>
+      <a class="btn btn--primary" href="{{ "travel/" | relURL }}">Travel & Practical guide</a>
+      <a class="btn btn--ghost" href="{{ "contact/" | relURL }}">Start a consultation</a>
+    </div>
+  </div>
+</article>
+{{ end }}

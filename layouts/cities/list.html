@@ -1,0 +1,31 @@
+{{ define "main" }}
+<article class="article">
+  <div class="article__container" style="max-width:var(--content-width)">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="{{ site.Home.RelPermalink }}">Home</a><span>/</span><span>Medical Cities</span>
+    </nav>
+    <header class="article-header">
+      <h1 class="article-header__title">🏙️ Medical Cities of China</h1>
+      <div class="prose">{{ .Content }}</div>
+    </header>
+    <div class="card-grid">
+      {{- range site.Data.cities -}}
+        {{- $cslug := .slug -}}
+        {{- $cityHosp := slice -}}
+        {{- range site.RegularPages -}}
+          {{- if and .Params.cities (in .Params.cities $cslug) -}}
+            {{- $cityHosp = $cityHosp | append . -}}
+          {{- end -}}
+        {{- end -}}
+      <article class="card">
+        <div class="card__body" style="padding:22px">
+          <h3 class="card__title"><a href="{{ printf "cities/%s/" .slug | relURL }}">{{ .emoji }} {{ .name }}</a></h3>
+          <p class="card__summary">{{ .description }}</p>
+          <div class="card__meta" style="border:0;padding:0">🏥 {{ len $cityHosp }} hospitals</div>
+        </div>
+      </article>
+      {{- end -}}
+    </div>
+  </div>
+</article>
+{{ end }}
