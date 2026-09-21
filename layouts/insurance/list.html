@@ -1,0 +1,24 @@
+{{ define "main" }}
+<article class="article">
+  <div class="article__container" style="max-width:var(--content-width)">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="{{ site.Home.RelPermalink }}">Home</a><span>/</span><span>Insurance & Claims</span>
+    </nav>
+    <header class="article-header">
+      <h1 class="article-header__title">🛡️ Insurance & Claims</h1>
+      <div class="prose">{{ .Content }}</div>
+    </header>
+    <div class="card-grid">
+      {{- range .Pages -}}
+      <article class="card">
+        <div class="card__body" style="padding:22px">
+          <h3 class="card__title"><a href="{{ .RelPermalink }}">{{ with .Params.coverEmoji }}{{ . }} {{ end }}{{ .Title }}</a></h3>
+          <p class="card__summary">{{ with .Params.summary }}{{ . }}{{ end }}</p>
+          <a class="card__link" href="{{ .RelPermalink }}">Read guide →</a>
+        </div>
+      </article>
+      {{- end -}}
+    </div>
+  </div>
+</article>
+{{ end }}
