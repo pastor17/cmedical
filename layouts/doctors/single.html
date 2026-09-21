@@ -1,0 +1,69 @@
+{{ define "main" }}
+<article class="article">
+  <div class="article__container" style="max-width:var(--content-width)">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="{{ site.Home.RelPermalink }}">Home</a><span>/</span>
+      <a href="{{ "specialties/" | relURL }}">Specialists</a><span>/</span>
+      <span>{{ .Title }}</span>
+    </nav>
+
+    <header class="article-header">
+      <div class="article-header__emoji" aria-hidden="true">{{ with .Params.coverEmoji }}{{ . }}{{ else }}🩺{{ end }}</div>
+      <div class="article-header__badges">
+        {{- range .Params.specialties -}}{{ partial "badge.html" (dict "taxonomy" "specialties" "term" .) }}{{- end -}}
+        {{- range .Params.cities -}}{{ partial "badge.html" (dict "taxonomy" "cities" "term" .) }}{{- end -}}
+      </div>
+      <h1 class="article-header__title">{{ .Title }}</h1>
+      {{- with .Params.summary }}<p class="article-header__summary">{{ . }}</p>{{ end }}
+    </header>
+
+    {{- with .Params.facts }}
+    <div class="hospital-facts">
+      {{- range . -}}
+      <div class="fact">
+        <div class="fact__label">{{ .label }}</div>
+        <div class="fact__value">{{ .value }}</div>
+      </div>
+      {{- end -}}
+    </div>
+    {{- end -}}
+
+    <div class="prose" id="storyBody">
+      {{ .Content }}
+    </div>
+
+    <div class="next-step">
+      <h3>📨 Want to see this specialist?</h3>
+      <p>Contact us to check availability and arrange a consultation at the hospital’s international department.</p>
+      <a class="btn btn--primary" href="{{ "contact/" | relURL }}">Start a consultation</a>
+    </div>
+  </div>
+</article>
+
+{{- /* Other specialists in the same specialty */ -}}
+{{- $others := where site.RegularPages "Section" "doctors" -}}
+{{- $same := slice -}}
+{{- range .Params.specialties -}}
+  {{- $same = $same | append (where $others "Params.specialties" .) -}}
+{{- end -}}
+{{- $same = where $same "Permalink" "ne" .RelPermalink -}}
+{{- $same = first 3 $same -}}
+{{- if gt (len $same) 0 -}}
+<section class="section section--alt">
+  <div class="container">
+    <div class="section__head"><h2 class="section__title">Other specialists</h2></div>
+    <div class="card-grid">
+      {{- range $same -}}
+      <article class="card">
+        <div class="card__body" style="padding:22px">
+          <h3 class="card__title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+          <p class="card__summary">{{ with .Params.summary }}{{ . }}{{ end }}</p>
+          <div class="card__meta" style="border:0;padding:0">{{ range .Params.specialties }}{{ partial "badge.html" (dict "taxonomy" "specialties" "term" .) }}{{ end }}</div>
+        </div>
+      </article>
+      {{- end -}}
+    </div>
+  </div>
+</section>
+{{- end -}}
+{{ end }}

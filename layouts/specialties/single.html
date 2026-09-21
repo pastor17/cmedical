@@ -15,6 +15,7 @@
 {{- $guides := where $tagged "Section" "in" (slice "guides" "tcm") -}}
 {{- $costs := where $tagged "Section" "cost" -}}
 {{- $stories := where $tagged "Section" "stories" -}}
+{{- $doctors := where $tagged "Section" "doctors" -}}
 
 <article class="article">
   <div class="article__container" style="max-width:var(--content-width)">
@@ -41,8 +42,25 @@
     </section>
     {{- end -}}
 
-    {{- if gt (len $guides) 0 -}}
+    {{- if gt (len $doctors) 0 -}}
     <section class="section section--alt" style="padding:30px 0">
+      <div class="section__head"><h2 class="section__title">🩺 Specialists</h2><a class="section__more" href="{{ "doctors/" | relURL }}">All specialists →</a></div>
+      <div class="card-grid">
+        {{- range $doctors -}}
+        <article class="card">
+          <div class="card__body" style="padding:22px">
+            <h3 class="card__title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+            <p class="card__summary">{{ with .Params.summary }}{{ . }}{{ end }}</p>
+            <div class="card__meta" style="border:0;padding:0">{{ with .Params.hospital }}🏥 {{ . }}{{ end }}</div>
+          </div>
+        </article>
+        {{- end -}}
+      </div>
+    </section>
+    {{- end -}}
+
+    {{- if gt (len $guides) 0 -}}
+    <section class="section" style="padding:30px 0">
       <div class="section__head"><h2 class="section__title">📖 Treatment guides</h2></div>
       <div class="card-grid">{{- range $guides }}{{ partial "story-card.html" . }}{{- end }}</div>
     </section>
