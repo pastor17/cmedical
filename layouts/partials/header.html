@@ -16,12 +16,19 @@
       <a href="{{ "specialties/" | relURL }}">Specialties</a>
       <a href="{{ "hospitals/" | relURL }}">Hospitals</a>
       <a href="{{ "cities/" | relURL }}">Cities</a>
-      <a href="{{ "doctors/" | relURL }}">Specialists</a>
       <a href="{{ "cost/" | relURL }}">Costs</a>
-      <a href="{{ "stories/" | relURL }}">Patient Stories</a>
-      <a href="{{ "tcm/" | relURL }}">TCM</a>
-      <a href="{{ "travel/" | relURL }}">Travel & Practical</a>
-      <a href="{{ "insurance/" | relURL }}">Insurance</a>
+      <div class="nav-dropdown">
+        <button class="nav-dropdown__toggle" id="navDropdownToggle" aria-label="More" aria-expanded="false">More ▾</button>
+        <div class="nav-dropdown__menu" id="navDropdownMenu">
+          <a href="{{ "doctors/" | relURL }}">Specialists</a>
+          <a href="{{ "stories/" | relURL }}">Patient Stories</a>
+          <a href="{{ "tcm/" | relURL }}">Traditional Chinese Medicine</a>
+          <a href="{{ "travel/" | relURL }}">Travel & Practical</a>
+          <a href="{{ "insurance/" | relURL }}">Insurance & Claims</a>
+          <a href="{{ "faq/" | relURL }}">FAQ</a>
+          <a href="{{ "glossary/" | relURL }}">Glossary</a>
+        </div>
+      </div>
       <a class="is-cta" href="{{ "contact/" | relURL }}">Contact / Consult</a>
     </nav>
   </div>

@@ -12,6 +12,24 @@
     });
   }
 
+  /* "More" dropdown */
+  var ddToggle = document.getElementById("navDropdownToggle");
+  var ddMenu = document.getElementById("navDropdownMenu");
+  if (ddToggle && ddMenu) {
+    ddToggle.addEventListener("click", function (e) {
+      e.stopPropagation();
+      var open = ddMenu.classList.toggle("is-open");
+      ddToggle.setAttribute("aria-expanded", open ? "true" : "false");
+    });
+    // Close when clicking outside (desktop)
+    document.addEventListener("click", function (e) {
+      if (!ddMenu.contains(e.target) && !ddToggle.contains(e.target)) {
+        ddMenu.classList.remove("is-open");
+        ddToggle.setAttribute("aria-expanded", "false");
+      }
+    });
+  }
+
   /* Reading progress bar (only on article pages) */
   var body = document.getElementById("storyBody") || document.getElementById("articleBody");
   var progressBar = document.getElementById("progressBar");
