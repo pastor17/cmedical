@@ -4,47 +4,33 @@
       <div class="site-footer__about">
         <h2>🏥 {{ site.Title }}</h2>
         <p>{{ site.Params.description }}</p>
-        <p class="site-footer__contact">📮 Email: <a href="mailto:{{ site.Params.contactEmail }}">{{ site.Params.contactEmail }}</a></p>
-        <p class="site-footer__disclaimer">ChinaCare provides information to help international patients plan care in China. It is not a substitute for professional medical advice, diagnosis, or treatment. Always consult a qualified physician. We do not provide emergency care — call local emergency services in an emergency.</p>
+        <p class="site-footer__contact">📮 <a href="mailto:{{ site.Params.contactEmail }}">{{ site.Params.contactEmail }}</a></p>
+        <p class="site-footer__contact">🚑 Emergency: <a href="{{ "emergency/" | relURL }}">120</a></p>
       </div>
       <div class="site-footer__col">
-        <h3>Your Journey</h3>
-        {{ range site.Data.stages }}
-          {{ $item := . }}
-          {{ with site.GetPage (printf "/journey/%s" $item.slug) }}
-            <a href="{{ .RelPermalink }}">{{ $item.emoji }} {{ $item.name }}</a>
-          {{ else }}
-            <span class="site-footer__soon">{{ $item.emoji }} {{ $item.name }}</span>
-          {{ end }}
-        {{ end }}
-      </div>
-      <div class="site-footer__col">
-        <h3>Specialties</h3>
-        {{ range first 6 site.Data.specialties }}
-          {{ $item := . }}
-          {{ with site.GetPage (printf "/specialties/%s" $item.slug) }}
-            <a href="{{ .RelPermalink }}">{{ $item.emoji }} {{ $item.name }}</a>
-          {{ else }}
-            <span class="site-footer__soon">{{ $item.emoji }} {{ $item.name }}</span>
-          {{ end }}
-        {{ end }}
-        <a href="{{ "specialties/" | relURL }}">All specialties →</a>
-      </div>
-      <div class="site-footer__col">
-        <h3>Quick Links</h3>
+        <h3>Find Care</h3>
+        <a href="{{ "specialties/" | relURL }}">Specialties</a>
         <a href="{{ "hospitals/" | relURL }}">Hospitals</a>
         <a href="{{ "cities/" | relURL }}">Medical Cities</a>
-        <a href="{{ "cost/" | relURL }}">Costs & Payment</a>
-        <a href="{{ "stories/" | relURL }}">Patient Stories</a>
+        <a href="{{ "doctors/" | relURL }}">Specialists</a>
         <a href="{{ "tcm/" | relURL }}">Traditional Chinese Medicine</a>
+      </div>
+      <div class="site-footer__col">
+        <h3>Plan Your Trip</h3>
+        <a href="{{ "journey/" | relURL }}">Your Journey</a>
+        <a href="{{ "cost/" | relURL }}">Costs & Payment</a>
+        <a href="{{ "insurance/" | relURL }}">Insurance</a>
         <a href="{{ "travel/" | relURL }}">Travel & Practical</a>
-        <a href="{{ "insurance/" | relURL }}">Insurance & Claims</a>
+        <a href="{{ "teleconsultation/" | relURL }}">Remote Consultation</a>
+      </div>
+      <div class="site-footer__col">
+        <h3>About & Help</h3>
+        <a href="{{ "why-china/" | relURL }}">Why Treat in China</a>
+        <a href="{{ "how-it-works/" | relURL }}">How It Works</a>
+        <a href="{{ "stories/" | relURL }}">Patient Stories</a>
         <a href="{{ "faq/" | relURL }}">FAQ</a>
-        <a href="{{ "emergency/" | relURL }}">Emergency</a>
         <a href="{{ "glossary/" | relURL }}">Glossary</a>
-        <a href="{{ "about/" | relURL }}">About</a>
-        <a href="{{ "disclaimer/" | relURL }}">Disclaimer</a>
-        <a href="{{ "privacy/" | relURL }}">Privacy</a>
+        <span class="site-footer__legal"><a href="{{ "about/" | relURL }}">About</a> · <a href="{{ "disclaimer/" | relURL }}">Disclaimer</a> · <a href="{{ "privacy/" | relURL }}">Privacy</a></span>
       </div>
     </div>
     <p class="site-footer__copyright">{{ site.Params.copyright }}</p>
