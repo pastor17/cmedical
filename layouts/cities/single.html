@@ -36,6 +36,22 @@
       </div>
     </section>
 
+    {{- $dest := index (where site.Data.destinations "slug" $slug) 0 -}}
+    {{- if $dest -}}
+    <section class="section" style="padding:24px 0">
+      <div class="section__head"><h2 class="section__title">🧭 Practical info for {{ with $meta }}{{ .name }}{{ end }}</h2></div>
+      <div class="hospital-facts">
+        <div class="fact"><div class="fact__label">Best time to visit</div><div class="fact__value">{{ $dest.bestTime }}</div></div>
+        <div class="fact"><div class="fact__label">Climate</div><div class="fact__value">{{ $dest.climate }}</div></div>
+        <div class="fact"><div class="fact__label">Currency</div><div class="fact__value">{{ $dest.currency }}</div></div>
+        <div class="fact"><div class="fact__label">Transport</div><div class="fact__value">{{ $dest.transit }}</div></div>
+        <div class="fact"><div class="fact__label">Food</div><div class="fact__value">{{ $dest.food }}</div></div>
+        <div class="fact"><div class="fact__label">Safety</div><div class="fact__value">{{ $dest.safety }}</div></div>
+        {{- with $dest.note }}<div class="fact"><div class="fact__label">Good to know</div><div class="fact__value">{{ . }}</div></div>{{ end }}
+      </div>
+    </section>
+    {{- end -}}
+
     <div class="next-step">
       <h3>🧭 Planning to visit {{ with $meta }}{{ .name }}{{ end }}?</h3>
       <p>Check the practical guides — visas, flights, accommodation — or start a consultation.</p>
