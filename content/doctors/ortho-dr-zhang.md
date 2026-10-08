@@ -8,7 +8,6 @@ cities: ["chengdu"]
 hospital: "West China Hospital"
 languages: ["English", "中文"]
 coverEmoji: "🦴"
-type: doctor
 summary: "Orthopedic surgeon at West China Hospital with high-volume joint replacement experience."
 facts:
   - label: "Specialty"

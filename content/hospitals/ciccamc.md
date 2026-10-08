@@ -6,7 +6,6 @@ draft: false
 specialties: ["oncology"]
 cities: ["beijing"]
 stages: ["choose", "register", "consult", "pay", "visit"]
-type: hospital
 coverEmoji: "🏥"
 summary: "China's national specialized cancer hospital — the leading center for cancer diagnosis, surgery, and treatment research."
 accreditations: ["MOH Grade III-A"]
@@ -18,10 +17,22 @@ facts:
     value: "beijing"
   - label: "Chinese name"
     value: "中国医学科学院肿瘤医院"
-  - label: "Founded"
-    value: "1958"
   - label: "Level"
     value: "Grade III-A (Three-A)"
+  - label: "Beds"
+    value: "~2,000"
+  - label: "Clinical departments"
+    value: "40+ clinical & research departments"
+  - label: "Affiliation"
+    value: "Chinese Academy of Medical Sciences & PUMC"
+  - label: "Address"
+    value: "17 Panjiayuan, Chaoyang, Beijing (main); Shijingshan, Fengtai (second campus)"
+  - label: "Founded"
+    value: "1958 (originally as a cancer research institute; hospital established 1985)"
+  - label: "Ranking"
+    value: "The leading specialized cancer hospital in China"
+  - label: "Notable"
+    value: "A national cancer research and treatment center; strong in targeted & immunotherapy"
 booking:
   onlineForForeigners: true
   channels: ["Phone", "Email", "Official Website"]
@@ -34,6 +45,8 @@ payment:
 ---
 
 中国医学科学院肿瘤医院 (Cancer Hospital, Chinese Academy of Medical Sciences) is a leading Grade III-A hospital serving the beijing region. It combines a broad range of strong specialties with teaching and research programs, and provides international patient services for foreign patients.
+
+**History & status.** The Cancer Hospital, Chinese Academy of Medical Sciences (中国医学科学院肿瘤医院), is **China's leading specialized cancer hospital**. It combines a major cancer treatment center with national cancer research, and is a reference point for complex oncology cases nationwide.
 
 ## Strengths for international patients
 

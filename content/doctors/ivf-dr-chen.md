@@ -8,7 +8,6 @@ cities: ["beijing"]
 hospital: "PUMCH"
 languages: ["English", "中文"]
 coverEmoji: "🧬"
-type: doctor
 summary: "Reproductive endocrinologist at PUMCH focused on IVF and assisted reproduction."
 facts:
   - label: "Specialty"

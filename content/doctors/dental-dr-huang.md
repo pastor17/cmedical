@@ -8,7 +8,6 @@ cities: ["beijing"]
 hospital: "PUMCH"
 languages: ["English", "中文"]
 coverEmoji: "🦷"
-type: doctor
 summary: "Dental specialist at PUMCH focused on implants, restorative dentistry, and full-mouth rehabilitation."
 facts:
   - label: "Specialty"

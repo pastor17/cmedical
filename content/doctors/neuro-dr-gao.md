@@ -8,7 +8,6 @@ cities: ["shanghai"]
 hospital: "Huashan Hospital"
 languages: ["English", "中文"]
 coverEmoji: "🧠"
-type: doctor
 summary: "Neurosurgical specialist at Huashan Hospital, one of the world's leading neurosurgery centers."
 facts:
   - label: "Specialty"

@@ -6,7 +6,6 @@ draft: false
 specialties: ["neurosurgery","neurology","cardiology"]
 cities: ["beijing"]
 stages: ["choose", "register", "consult", "pay", "visit"]
-type: hospital
 coverEmoji: "🏥"
 summary: "A top Beijing Grade III-A hospital best known for neurology and neurosurgery — a national referral center for brain and spine conditions."
 accreditations: ["MOH Grade III-A"]
@@ -18,10 +17,22 @@ facts:
     value: "beijing"
   - label: "Chinese name"
     value: "北京大学宣武医院"
-  - label: "Founded"
-    value: "1958"
   - label: "Level"
     value: "Grade III-A (Three-A)"
+  - label: "Beds"
+    value: "~2,000"
+  - label: "Clinical departments"
+    value: "30+ clinical departments"
+  - label: "Affiliation"
+    value: "Peking University"
+  - label: "Address"
+    value: "44 Changchun Road, Xicheng, Beijing"
+  - label: "Founded"
+    value: "1958"
+  - label: "Ranking"
+    value: "Top-30 general; consistently #1 nationally in neurology & neurosurgery in specialty rankings"
+  - label: "Notable"
+    value: "A national referral center for neurology, neurosurgery, and neuro-rehabilitation"
 booking:
   onlineForForeigners: true
   channels: ["Phone", "Email", "Official Website"]
@@ -34,6 +45,8 @@ payment:
 ---
 
 北京大学宣武医院 (Peking University Xuanwu Hospital) is a leading Grade III-A hospital serving the beijing region. It combines a broad range of strong specialties with teaching and research programs, and provides international patient services for foreign patients.
+
+**History & status.** Peking University Xuanwu Hospital (宣武医院), founded in 1958, is a national referral center best known for **neurology and neurosurgery** — consistently ranked first in the country for these specialties. It handles a very high volume of complex brain, spine, and neurological cases, including stroke and neuro-rehabilitation.
 
 ## Strengths for international patients
 

@@ -6,7 +6,6 @@ draft: false
 specialties: ["cardiology","oncology","neurosurgery","health-checkup"]
 cities: ["shenzhen"]
 stages: ["choose", "register", "consult", "pay", "visit"]
-type: hospital
 coverEmoji: "🏥"
 summary: "A leading general Grade III-A hospital in Shenzhen, strong in cardiology, oncology, and neurosurgery, with a modern health-checkup center."
 accreditations: ["MOH Grade III-A"]
@@ -18,10 +17,22 @@ facts:
     value: "shenzhen"
   - label: "Chinese name"
     value: "深圳市人民医院"
-  - label: "Founded"
-    value: "1946"
   - label: "Level"
     value: "Grade III-A (Three-A)"
+  - label: "Beds"
+    value: "~3,000"
+  - label: "Clinical departments"
+    value: "40+ clinical departments"
+  - label: "Affiliation"
+    value: "Shenzhen University School of Medicine"
+  - label: "Address"
+    value: "1239 Lianhua Road, Luohu, Shenzhen (main); Futian (second campus)"
+  - label: "Founded"
+    value: "1946"
+  - label: "Ranking"
+    value: "The leading general hospital in Shenzhen"
+  - label: "Notable"
+    value: "Strong in cardiology, oncology, neurosurgery; a modern health-checkup center"
 booking:
   onlineForForeigners: true
   channels: ["Phone", "Email", "Official Website"]
@@ -34,6 +45,8 @@ payment:
 ---
 
 深圳市人民医院 (Shenzhen People's Hospital) is a leading Grade III-A hospital serving the shenzhen region. It combines a broad range of strong specialties with teaching and research programs, and provides international patient services for foreign patients.
+
+**History & status.** Shenzhen People's Hospital (深圳市人民医院), founded in 1946, is the leading general Grade III-A hospital in Shenzhen, strong in cardiology, oncology, and neurosurgery, with a modern health-checkup center.
 
 ## Strengths for international patients
 

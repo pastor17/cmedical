@@ -6,7 +6,6 @@ draft: false
 specialties: ["nephrology","urology","cardiology","health-checkup"]
 cities: ["beijing"]
 stages: ["choose", "register", "consult", "pay", "visit"]
-type: hospital
 coverEmoji: "🏥"
 summary: "A long-established Grade III-A hospital in Beijing, nationally recognized for nephrology (kidney) and urology, with strong general specialty care."
 accreditations: ["MOH Grade III-A"]
@@ -18,10 +17,22 @@ facts:
     value: "beijing"
   - label: "Chinese name"
     value: "北京大学第一医院"
-  - label: "Founded"
-    value: "1915"
   - label: "Level"
     value: "Grade III-A (Three-A)"
+  - label: "Beds"
+    value: "~1,805"
+  - label: "Clinical departments"
+    value: "36 clinical departments"
+  - label: "Affiliation"
+    value: "Peking University (Central Government Designated Hospital)"
+  - label: "Address"
+    value: "8 Xichang Street, Xicheng, Beijing (Zhongguancun main); Miyun & Daxing campuses"
+  - label: "Founded"
+    value: "1915 (originally Peking Medical College Hospital)"
+  - label: "Ranking"
+    value: "Top-12 in the Fudan University China Hospital Top 100 (general)"
+  - label: "National firsts"
+    value: "China's first kidney transplant (1960); first urology dept (1946); first nephrology dept (1950); first pediatric neurology (1961)"
 booking:
   onlineForForeigners: true
   channels: ["Phone", "Email", "Official Website"]
@@ -34,6 +45,8 @@ payment:
 ---
 
 北京大学第一医院 (Peking University First Hospital) is a leading Grade III-A hospital serving the beijing region. It combines a broad range of strong specialties with teaching and research programs, and provides international patient services for foreign patients.
+
+**History & status.** Founded in 1915, Peking University First Hospital (北大医院) is a Central Government Designated Hospital and a leading academic medical center of Peking University. It is especially renowned for **nephrology (kidney)** and **urology** — both national leaders — and pioneered several 'firsts' in Chinese medicine.
 
 ## Strengths for international patients
 

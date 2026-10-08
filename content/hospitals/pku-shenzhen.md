@@ -6,7 +6,6 @@ draft: false
 specialties: ["cardiology", "oncology", "health-checkup", "tcm"]
 cities: ["shenzhen"]
 stages: ["choose", "register", "consult", "pay", "visit"]
-type: hospital
 coverEmoji: "🏥"
 summary: "A modern Grade III-A teaching hospital in Shenzhen, strong in cardiology, oncology, and health screening, close to the Hong Kong border."
 accreditations: ["MOH Grade III-A"]
@@ -16,12 +15,24 @@ yearFounded: 2004
 facts:
   - label: "Location"
     value: "Shenzhen, China"
-  - label: "Founded"
-    value: "2004"
   - label: "Level"
     value: "Grade III-A (Three-A)"
   - label: "International Dept."
     value: "Yes (English service)"
+  - label: "Beds"
+    value: "~2,500"
+  - label: "Clinical departments"
+    value: "30+ clinical departments"
+  - label: "Affiliation"
+    value: "Peking University"
+  - label: "Address"
+    value: "1120 Lianhua Road, Luohu, Shenzhen"
+  - label: "Founded"
+    value: "2004"
+  - label: "Ranking"
+    value: "Top-50 general hospital in China"
+  - label: "Notable"
+    value: "A modern Peking University hospital in Shenzhen; strong in cardiology, oncology, and health screening"
 booking:
   onlineForForeigners: true
   channels: ["Phone", "Email", "Official Website"]
@@ -34,6 +45,8 @@ payment:
 ---
 
 Peking University Shenzhen Hospital (北京大学深圳医院), founded in 2004, is a modern Grade III-A teaching and referral hospital in Shenzhen. It brings Peking University’s medical strength to the south and is well equipped for a broad range of specialties, including cardiology and oncology.
+
+**History & status.** Peking University Shenzhen Hospital (北京大学深圳医院), founded in 2004, is a modern Grade III-A teaching hospital bringing Peking University's medical strength to Shenzhen. It is well equipped across many specialties, including cardiology and oncology.
 
 ## Strengths for international patients
 

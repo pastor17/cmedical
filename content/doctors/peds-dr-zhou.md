@@ -8,7 +8,6 @@ cities: ["shenzhen"]
 hospital: "Shenzhen Children's"
 languages: ["English", "中文"]
 coverEmoji: "👶"
-type: doctor
 summary: "Pediatric specialist at Shenzhen Children's Medical Center, focused on complex pediatric conditions."
 facts:
   - label: "Specialty"

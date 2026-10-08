@@ -6,7 +6,6 @@ draft: false
 specialties: ["pediatrics","gynecology","ivf","neurosurgery"]
 cities: ["chengdu"]
 stages: ["choose", "register", "consult", "pay", "visit"]
-type: hospital
 coverEmoji: "🏥"
 summary: "A top Grade III-A hospital in Chengdu, strong in pediatrics, obstetrics, and reproductive medicine, within the West China medical campus."
 accreditations: ["MOH Grade III-A"]
@@ -18,10 +17,22 @@ facts:
     value: "chengdu"
   - label: "Chinese name"
     value: "四川大学华西第二医院"
-  - label: "Founded"
-    value: "1929"
   - label: "Level"
     value: "Grade III-A (Three-A)"
+  - label: "Beds"
+    value: "~3,000"
+  - label: "Clinical departments"
+    value: "40+ clinical departments"
+  - label: "Affiliation"
+    value: "Sichuan University"
+  - label: "Address"
+    value: "16 Section 2 South People's Road, Wuhou, Chengdu"
+  - label: "Founded"
+    value: "1929"
+  - label: "Ranking"
+    value: "Top-20 general hospital in China"
+  - label: "Notable"
+    value: "A top Sichuan University hospital; strong in pediatrics, obstetrics, and reproductive medicine"
 booking:
   onlineForForeigners: true
   channels: ["Phone", "Email", "Official Website"]
@@ -34,6 +45,8 @@ payment:
 ---
 
 四川大学华西第二医院 (The Second West China Hospital, Sichuan University) is a leading Grade III-A hospital serving the chengdu region. It combines a broad range of strong specialties with teaching and research programs, and provides international patient services for foreign patients.
+
+**History & status.** The Second West China Hospital (华西第二医院 / 四川省妇幼保健院), founded in 1929 and affiliated with Sichuan University, is a top Grade III-A hospital strong in pediatrics, obstetrics, and reproductive medicine, within the West China medical campus.
 
 ## Strengths for international patients
 

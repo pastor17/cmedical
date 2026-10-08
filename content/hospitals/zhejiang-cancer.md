@@ -6,7 +6,6 @@ draft: false
 specialties: ["oncology"]
 cities: ["hangzhou"]
 stages: ["choose", "register", "consult", "pay", "visit"]
-type: hospital
 coverEmoji: "🏥"
 summary: "A specialized cancer hospital in Hangzhou, a major regional center for cancer diagnosis, surgery, and treatment."
 accreditations: ["MOH Grade III-A"]
@@ -18,10 +17,22 @@ facts:
     value: "hangzhou"
   - label: "Chinese name"
     value: "浙江省肿瘤医院"
-  - label: "Founded"
-    value: "1963"
   - label: "Level"
     value: "Grade III-A (Three-A)"
+  - label: "Beds"
+    value: "~2,000"
+  - label: "Clinical departments"
+    value: "30+ clinical & research departments"
+  - label: "Affiliation"
+    value: "Zhejiang Province / Wenzhou Medical University"
+  - label: "Address"
+    value: "12 Shangtang Road, Shangcheng, Hangzhou"
+  - label: "Founded"
+    value: "1963"
+  - label: "Ranking"
+    value: "The leading specialized cancer hospital in Zhejiang"
+  - label: "Notable"
+    value: "A major regional center for cancer diagnosis, surgery, and treatment"
 booking:
   onlineForForeigners: true
   channels: ["Phone", "Email", "Official Website"]
@@ -34,6 +45,8 @@ payment:
 ---
 
 浙江省肿瘤医院 (Zhejiang Cancer Hospital) is a leading Grade III-A hospital serving the hangzhou region. It combines a broad range of strong specialties with teaching and research programs, and provides international patient services for foreign patients.
+
+**History & status.** Zhejiang Cancer Hospital (浙江省肿瘤医院), founded in 1963, is a specialized cancer hospital and a major regional center for cancer diagnosis, surgery, and treatment in Zhejiang.
 
 ## Strengths for international patients
 

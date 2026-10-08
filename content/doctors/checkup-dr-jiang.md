@@ -8,7 +8,6 @@ cities: ["guangzhou"]
 hospital: "Guangdong Provincial"
 languages: ["English", "中文"]
 coverEmoji: "🩻"
-type: doctor
 summary: "Preventive medicine specialist at Guangdong Provincial People's Hospital, focused on comprehensive health screening."
 facts:
   - label: "Specialty"

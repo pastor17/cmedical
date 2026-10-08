@@ -6,7 +6,6 @@ draft: false
 specialties: ["cardiology","oncology","dental","health-checkup"]
 cities: ["hangzhou"]
 stages: ["choose", "register", "consult", "pay", "visit"]
-type: hospital
 coverEmoji: "🏥"
 summary: "A leading Grade III-A hospital in Hangzhou, strong in cardiology, oncology, and dental care, with a major health-checkup program."
 accreditations: ["MOH Grade III-A"]
@@ -18,10 +17,22 @@ facts:
     value: "hangzhou"
   - label: "Chinese name"
     value: "浙江大学医学院附属第二医院"
-  - label: "Founded"
-    value: "1947"
   - label: "Level"
     value: "Grade III-A (Three-A)"
+  - label: "Beds"
+    value: "~4,000"
+  - label: "Clinical departments"
+    value: "50+ clinical departments"
+  - label: "Affiliation"
+    value: "Zhejiang University School of Medicine"
+  - label: "Address"
+    value: "54 Youdian Road, Jiefang, Hangzhou (main); Tonghu, Yuhang (other campuses)"
+  - label: "Founded"
+    value: "1947"
+  - label: "Ranking"
+    value: "Top-15 general hospital in China"
+  - label: "Notable"
+    value: "Strong in cardiology, oncology, and dental care; a major health-checkup program"
 booking:
   onlineForForeigners: true
   channels: ["Phone", "Email", "Official Website"]
@@ -34,6 +45,8 @@ payment:
 ---
 
 浙江大学医学院附属第二医院 (The Second Affiliated Hospital, Zhejiang University) is a leading Grade III-A hospital serving the hangzhou region. It combines a broad range of strong specialties with teaching and research programs, and provides international patient services for foreign patients.
+
+**History & status.** The Second Affiliated Hospital of Zhejiang University (浙大二院), founded in 1947, is a leading Hangzhou Grade III-A hospital, strong in cardiology, oncology, and dental care, with a major health-checkup program.
 
 ## Strengths for international patients
 

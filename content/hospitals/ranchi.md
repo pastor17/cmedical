@@ -6,7 +6,6 @@ draft: false
 specialties: ["oncology", "cardiology", "orthopedics", "health-checkup"]
 cities: ["shanghai"]
 stages: ["choose", "register", "consult", "pay", "visit"]
-type: hospital
 coverEmoji: "🏥"
 summary: "A top-tier Grade III-A hospital in Shanghai, strong in oncology, cardiology, and a full range of specialties, with international patient services."
 accreditations: ["MOH Grade III-A"]
@@ -16,12 +15,24 @@ yearFounded: 1907
 facts:
   - label: "Location"
     value: "Shanghai, China"
-  - label: "Founded"
-    value: "1907"
   - label: "Level"
     value: "Grade III-A (Three-A)"
   - label: "International Dept."
     value: "Yes (English service)"
+  - label: "Beds"
+    value: "~3,500"
+  - label: "Clinical departments"
+    value: "35+ clinical departments"
+  - label: "Affiliation"
+    value: "Shanghai Jiao Tong University School of Medicine"
+  - label: "Address"
+    value: "145 Jianguo West Road, Huangpu, Shanghai (main); Pudong & Jiading campuses"
+  - label: "Founded"
+    value: "1844 (as Wade Memorial Hospital — the earliest Western-style hospital in Shanghai)"
+  - label: "Ranking"
+    value: "~#8 in the Fudan University China Hospital Top 100 (2022)"
+  - label: "National strengths"
+    value: "Hepatobiliary, neurosurgery, urology, ENT, cardiovascular, infectious diseases (hepatitis)"
 booking:
   onlineForForeigners: true
   channels: ["Phone", "Email", "Official Website"]
@@ -34,6 +45,8 @@ payment:
 ---
 
 Renji Hospital (瑞金医院), founded in 1907 and affiliated with Shanghai Jiao Tong University’s School of Medicine, is one of China’s premier Grade III-A general hospitals. It is a major referral and teaching center and is consistently ranked among the leading hospitals in the country.
+
+**History & status.** Renji Hospital (仁济医院) traces to 1844, when it was founded as Wade Memorial Hospital by the American USPG — the **earliest Western-style hospital in Shanghai**. It is a top Shanghai Grade III-A hospital affiliated with Shanghai Jiao Tong University, strong in hepatobiliary disease, neurosurgery, urology, and cardiovascular care.
 
 ## Strengths for international patients
 

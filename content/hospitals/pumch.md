@@ -6,7 +6,6 @@ draft: false
 specialties: ["oncology", "cardiology", "neurosurgery", "transplant"]
 cities: ["beijing"]
 stages: ["choose", "register", "consult", "pay", "visit"]
-type: hospital
 coverEmoji: "🏥"
 summary: "One of China’s most prestigious Grade III-A general hospitals, renowned for oncology, cardiac, and neurological care, with a dedicated international medical department."
 accreditations: ["MOH Grade III-A", "JCI"]
@@ -22,6 +21,20 @@ facts:
     value: "Grade III-A (Three-A)"
   - label: "International Dept."
     value: "Yes (English service)"
+  - label: "Beds"
+    value: "~1,800"
+  - label: "Clinical departments"
+    value: "55 clinical departments"
+  - label: "Affiliation"
+    value: "Peking Union Medical College / Chinese Academy of Medical Sciences"
+  - label: "Address"
+    value: "1 Shuaifuyuan, Wangfujing, Dongcheng, Beijing (main); 16 Duxingdi, Xicheng (second campus)"
+  - label: "Founded by"
+    value: "The Rockefeller Foundation, in collaboration with Chinese physicians (1921)"
+  - label: "Ranking"
+    value: "Historically No. 1 among Chinese general hospitals in the Fudan University rankings"
+  - label: "Notable"
+    value: "China's first case of organ and tissue transplantation; a national referral center"
 booking:
   onlineForForeigners: true
   channels: ["Phone", "Email", "Official Website"]
@@ -34,6 +47,8 @@ payment:
 ---
 
 Peking Union Medical College Hospital (PUMCH), founded in 1921, is one of the oldest and most respected hospitals in China and a flagship of the national medical system. It is consistently ranked among the top general hospitals in the country and is a key referral center for complex cases.
+
+**History & status.** PUMCH was founded in 1921 by the Rockefeller Foundation with Chinese physicians and has since been a flagship of the national medical system. It runs two campuses (the original Dongdan/Wangfujing campus and the Xidan second campus) and is consistently ranked among the very top general hospitals in China.
 
 ## Strengths for international patients
 

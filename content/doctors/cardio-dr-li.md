@@ -8,7 +8,6 @@ cities: ["shanghai"]
 hospital: "Renji Hospital"
 languages: ["English", "中文"]
 coverEmoji: "❤️"
-type: doctor
 summary: "Cardiologist at Renji Hospital specializing in complex coronary and structural heart disease."
 facts:
   - label: "Specialty"

@@ -6,7 +6,6 @@ draft: false
 specialties: ["cardiology","hepatology","oncology"]
 cities: ["shanghai"]
 stages: ["choose", "register", "consult", "pay", "visit"]
-type: hospital
 coverEmoji: "🏥"
 summary: "A leading Fudan University hospital in Shanghai, famous for liver (hepatology) and cardiology, and a major cancer treatment center."
 accreditations: ["MOH Grade III-A"]
@@ -18,10 +17,22 @@ facts:
     value: "shanghai"
   - label: "Chinese name"
     value: "复旦大学附属中山医院"
-  - label: "Founded"
-    value: "1937"
   - label: "Level"
     value: "Grade III-A (Three-A)"
+  - label: "Beds"
+    value: "~3,000"
+  - label: "Clinical departments"
+    value: "30+ clinical departments"
+  - label: "Affiliation"
+    value: "Fudan University"
+  - label: "Address"
+    value: "528 Fuchang Road, Xuhui, Shanghai (main); Minhang (second campus)"
+  - label: "Founded"
+    value: "1937 (as a medical school hospital)"
+  - label: "Ranking"
+    value: "Top-15 general hospital in China"
+  - label: "National strengths"
+    value: "Liver (hepatobiliary) disease, cardiology, and a major cancer center"
 booking:
   onlineForForeigners: true
   channels: ["Phone", "Email", "Official Website"]
@@ -34,6 +45,8 @@ payment:
 ---
 
 复旦大学附属中山医院 (Zhongshan Hospital, Fudan University) is a leading Grade III-A hospital serving the shanghai region. It combines a broad range of strong specialties with teaching and research programs, and provides international patient services for foreign patients.
+
+**History & status.** Zhongshan Hospital, Fudan University (中山医院), founded in 1937, is a leading Shanghai Grade III-A hospital. It is **famous for liver (hepatobiliary) medicine** and cardiology, and is one of the country's major cancer treatment centers.
 
 ## Strengths for international patients
 

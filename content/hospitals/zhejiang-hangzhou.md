@@ -6,7 +6,6 @@ draft: false
 specialties: ["cardiology", "oncology", "neurosurgery", "transplant"]
 cities: ["hangzhou"]
 stages: ["choose", "register", "consult", "pay", "visit"]
-type: hospital
 coverEmoji: "🏥"
 summary: "A leading Grade III-A hospital in Hangzhou, strong in cardiology, oncology, neurosurgery, and organ transplant, with international patient services."
 accreditations: ["MOH Grade III-A"]
@@ -16,12 +15,24 @@ yearFounded: 1947
 facts:
   - label: "Location"
     value: "Hangzhou, China"
-  - label: "Founded"
-    value: "1947"
   - label: "Level"
     value: "Grade III-A (Three-A)"
   - label: "International Dept."
     value: "Yes (English service)"
+  - label: "Beds"
+    value: "~4,500"
+  - label: "Clinical departments"
+    value: "50+ clinical departments"
+  - label: "Affiliation"
+    value: "Zhejiang University School of Medicine"
+  - label: "Address"
+    value: "79 Jiangku Road, Shangcheng, Hangzhou (main); Qingchun (second campus)"
+  - label: "Founded"
+    value: "1947"
+  - label: "Ranking"
+    value: "Top-10 general hospital in China"
+  - label: "National strengths"
+    value: "Cardiology (a nationally recognized heart center), organ transplant, oncology"
 booking:
   onlineForForeigners: true
   channels: ["Phone", "Email", "Official Website"]
@@ -34,6 +45,8 @@ payment:
 ---
 
 The First Affiliated Hospital of Zhejiang University School of Medicine (浙江大学医学院附属第一医院), founded in 1947, is one of the leading general hospitals in east China. It is a major referral and research center, particularly well known for cardiology, organ transplantation, and oncology.
+
+**History & status.** The First Affiliated Hospital of Zhejiang University School of Medicine (浙大一院), founded in 1947, is one of the leading general hospitals in east China and a top-10 hospital nationally. It is especially strong in **cardiology** and **organ transplantation**.
 
 ## Strengths for international patients
 

@@ -8,7 +8,6 @@ cities: ["chengdu"]
 hospital: "West China Hospital"
 languages: ["English", "中文"]
 coverEmoji: "👁️"
-type: doctor
 summary: "Ophthalmologist at West China Hospital, one of China’s leading eye centers."
 facts:
   - label: "Specialty"

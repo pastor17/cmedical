@@ -8,7 +8,6 @@ cities: ["shanghai"]
 hospital: "Renji Hospital"
 languages: ["English", "中文"]
 coverEmoji: "✨"
-type: doctor
 summary: "Plastic and cosmetic surgeon at Renji Hospital, focused on facial and body procedures."
 facts:
   - label: "Specialty"

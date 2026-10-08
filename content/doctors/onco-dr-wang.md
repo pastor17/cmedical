@@ -8,7 +8,6 @@ cities: ["beijing"]
 hospital: "PUMCH"
 languages: ["English", "中文"]
 coverEmoji: "🎗️"
-type: doctor
 summary: "Senior oncologist at Peking Union Medical College Hospital, focused on solid tumors and targeted/immunotherapy."
 facts:
   - label: "Specialty"

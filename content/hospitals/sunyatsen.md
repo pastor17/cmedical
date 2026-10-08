@@ -6,7 +6,6 @@ draft: false
 specialties: ["oncology", "cardiology", "tcm", "health-checkup"]
 cities: ["guangzhou"]
 stages: ["choose", "register", "consult", "pay", "visit"]
-type: hospital
 coverEmoji: "🏥"
 summary: "A leading Grade III-A hospital in Guangzhou, strong in oncology, cardiology, and integrative (TCM + modern) care, serving the south and international patients."
 accreditations: ["MOH Grade III-A"]
@@ -16,12 +15,24 @@ yearFounded: 1926
 facts:
   - label: "Location"
     value: "Guangzhou, China"
-  - label: "Founded"
-    value: "1926"
   - label: "Level"
     value: "Grade III-A (Three-A)"
   - label: "International Dept."
     value: "Yes (English service)"
+  - label: "Beds"
+    value: "~4,000"
+  - label: "Clinical departments"
+    value: "50+ clinical departments"
+  - label: "Affiliation"
+    value: "Sun Yat-sen University"
+  - label: "Address"
+    value: "58 Yifu Road, Liwan, Guangzhou (main); multiple campuses"
+  - label: "Founded"
+    value: "1926 (originally the First Affiliated Hospital of Sun Yat-sen University of Medical Sciences)"
+  - label: "Ranking"
+    value: "Top-10 general hospital in China"
+  - label: "Notable"
+    value: "One of the leading general hospitals in southern China; strong in integrative (TCM + modern) care"
 booking:
   onlineForForeigners: true
   channels: ["Phone", "Email", "Official Website"]
@@ -34,6 +45,8 @@ payment:
 ---
 
 The First Affiliated Hospital of Sun Yat-sen University (中山大学附属第一医院), founded in 1926, is one of the leading general hospitals in southern China and a major referral, teaching, and research center. It is well known for its breadth of specialties and its integration of modern medicine with Traditional Chinese Medicine.
+
+**History & status.** The First Affiliated Hospital of Sun Yat-sen University (中山一院), founded in 1926, is one of the leading general hospitals in southern China and a top-10 hospital nationally. It is a major referral and teaching center, well known for breadth of specialties and integrative (TCM + modern) medicine.
 
 ## Strengths for international patients
 

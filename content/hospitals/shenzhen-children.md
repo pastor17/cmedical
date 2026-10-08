@@ -6,7 +6,6 @@ draft: false
 specialties: ["pediatrics"]
 cities: ["shenzhen"]
 stages: ["choose", "register", "consult", "pay", "visit"]
-type: hospital
 coverEmoji: "🏥"
 summary: "A specialized pediatric center in Shenzhen, one of the region's leading children's hospitals for complex pediatric conditions."
 accreditations: ["MOH Grade III-A"]
@@ -18,10 +17,22 @@ facts:
     value: "shenzhen"
   - label: "Chinese name"
     value: "深圳市儿童医院"
-  - label: "Founded"
-    value: "2009"
   - label: "Level"
     value: "Grade III-A (Three-A)"
+  - label: "Beds"
+    value: "~1,500"
+  - label: "Clinical departments"
+    value: "pediatric specialty departments"
+  - label: "Affiliation"
+    value: "Shenzhen (municipal)"
+  - label: "Address"
+    value: "No. 8, Shennan Avenue, Futian, Shenzhen (main campus)"
+  - label: "Founded"
+    value: "2009"
+  - label: "Ranking"
+    value: "One of the leading children's hospitals in the Pearl River Delta"
+  - label: "Notable"
+    value: "Specialized pediatric center for complex pediatric conditions"
 booking:
   onlineForForeigners: true
   channels: ["Phone", "Email", "Official Website"]
@@ -34,6 +45,8 @@ payment:
 ---
 
 深圳市儿童医院 (Shenzhen Children's Medical Center) is a leading Grade III-A hospital serving the shenzhen region. It combines a broad range of strong specialties with teaching and research programs, and provides international patient services for foreign patients.
+
+**History & status.** Shenzhen Children's Medical Center (深圳市儿童医院), founded in 2009, is a specialized pediatric center and one of the region's leading children's hospitals for complex pediatric conditions.
 
 ## Strengths for international patients
 

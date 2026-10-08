@@ -6,7 +6,6 @@ draft: false
 specialties: ["diabetology","cardiology","hematology","health-checkup"]
 cities: ["shanghai"]
 stages: ["choose", "register", "consult", "pay", "visit"]
-type: hospital
 coverEmoji: "🏥"
 summary: "A historic top Shanghai Grade III-A hospital nationally renowned for diabetology (endocrinology), cardiology, and hematology, with a strong health-checkup program."
 accreditations: ["MOH Grade III-A"]
@@ -18,10 +17,22 @@ facts:
     value: "shanghai"
   - label: "Chinese name"
     value: "上海交通大学医学院附属瑞金医院"
-  - label: "Founded"
-    value: "1907"
   - label: "Level"
     value: "Grade III-A (Three-A)"
+  - label: "Beds"
+    value: "~3,000"
+  - label: "Clinical departments"
+    value: "40+ clinical departments"
+  - label: "Affiliation"
+    value: "Shanghai Jiao Tong University School of Medicine"
+  - label: "Address"
+    value: "197 Ruijin 2nd Road, Huangpu, Shanghai"
+  - label: "Founded"
+    value: "1907 (originally St. Marie Hospital, run by the Catholic Kiangnan Mission)"
+  - label: "Staff"
+    value: "6,000+ employees"
+  - label: "National strengths"
+    value: "Diabetology/endocrinology, hematology, cardiology, and a major health-checkup program"
 booking:
   onlineForForeigners: true
   channels: ["Phone", "Email", "Official Website"]
@@ -34,6 +45,8 @@ payment:
 ---
 
 上海交通大学医学院附属瑞金医院 (Ruijin Hospital, Shanghai Jiao Tong University) is a leading Grade III-A hospital serving the shanghai region. It combines a broad range of strong specialties with teaching and research programs, and provides international patient services for foreign patients.
+
+**History & status.** Ruijin Hospital (瑞金医院), founded in 1907 and formerly St. Marie Hospital, is a historic top Shanghai Grade III-A hospital affiliated with Shanghai Jiao Tong University. It is **nationally renowned for diabetology (endocrinology)** and hematology, with strong cardiovascular and health-screening programs.
 
 ## Strengths for international patients
 

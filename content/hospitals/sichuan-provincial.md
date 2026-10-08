@@ -6,7 +6,6 @@ draft: false
 specialties: ["cardiology","orthopedics","oncology","health-checkup"]
 cities: ["chengdu"]
 stages: ["choose", "register", "consult", "pay", "visit"]
-type: hospital
 coverEmoji: "🏥"
 summary: "A leading provincial Grade III-A hospital in Chengdu, strong in cardiology, orthopedics, and oncology, with comprehensive health-checkup services."
 accreditations: ["MOH Grade III-A"]
@@ -18,10 +17,22 @@ facts:
     value: "chengdu"
   - label: "Chinese name"
     value: "四川省人民医院"
-  - label: "Founded"
-    value: "1917"
   - label: "Level"
     value: "Grade III-A (Three-A)"
+  - label: "Beds"
+    value: "~3,500"
+  - label: "Clinical departments"
+    value: "40+ clinical departments"
+  - label: "Affiliation"
+    value: "Sichuan Provincial Health Commission"
+  - label: "Address"
+    value: "28 West Section 2 People's South Road, Wuhou, Chengdu"
+  - label: "Founded"
+    value: "1917"
+  - label: "Ranking"
+    value: "The leading provincial hospital in Sichuan"
+  - label: "Notable"
+    value: "Strong in cardiology, orthopedics, and oncology; comprehensive health-checkup services"
 booking:
   onlineForForeigners: true
   channels: ["Phone", "Email", "Official Website"]
@@ -34,6 +45,8 @@ payment:
 ---
 
 四川省人民医院 (Sichuan Provincial People's Hospital) is a leading Grade III-A hospital serving the chengdu region. It combines a broad range of strong specialties with teaching and research programs, and provides international patient services for foreign patients.
+
+**History & status.** Sichuan Provincial People's Hospital (四川省人民医院), founded in 1917, is a leading provincial Grade III-A hospital in Chengdu, strong in cardiology, orthopedics, and oncology, with comprehensive health-checkup services.
 
 ## Strengths for international patients
 

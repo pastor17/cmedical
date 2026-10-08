@@ -8,7 +8,6 @@ cities: ["hangzhou"]
 hospital: "Zhejiang First"
 languages: ["English", "中文"]
 coverEmoji: "🫀"
-type: doctor
 summary: "Transplant surgeon at Zhejiang First Affiliated Hospital, a leading liver and kidney transplant center."
 facts:
   - label: "Specialty"

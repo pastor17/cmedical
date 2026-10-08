@@ -6,7 +6,6 @@ draft: false
 specialties: ["cardiology","oncology","health-checkup"]
 cities: ["guangzhou"]
 stages: ["choose", "register", "consult", "pay", "visit"]
-type: hospital
 coverEmoji: "🏥"
 summary: "A top provincial Grade III-A hospital in Guangzhou, strong in cardiology and oncology, with comprehensive health-checkup services."
 accreditations: ["MOH Grade III-A"]
@@ -18,10 +17,22 @@ facts:
     value: "guangzhou"
   - label: "Chinese name"
     value: "广东省人民医院"
-  - label: "Founded"
-    value: "1946"
   - label: "Level"
     value: "Grade III-A (Three-A)"
+  - label: "Beds"
+    value: "~3,000"
+  - label: "Clinical departments"
+    value: "40+ clinical departments"
+  - label: "Affiliation"
+    value: "Guangdong Provincial Health Commission"
+  - label: "Address"
+    value: "106 Zhongshan 5th Road, Yuexiu, Guangzhou"
+  - label: "Founded"
+    value: "1946"
+  - label: "Ranking"
+    value: "Top-30 general hospital in China"
+  - label: "Notable"
+    value: "Strong in cardiology, oncology, and comprehensive health-checkup services"
 booking:
   onlineForForeigners: true
   channels: ["Phone", "Email", "Official Website"]
@@ -34,6 +45,8 @@ payment:
 ---
 
 广东省人民医院 (Guangdong Provincial People's Hospital) is a leading Grade III-A hospital serving the guangzhou region. It combines a broad range of strong specialties with teaching and research programs, and provides international patient services for foreign patients.
+
+**History & status.** Guangdong Provincial People's Hospital (广东省人民医院), founded in 1946, is a top provincial Grade III-A hospital in Guangzhou, strong in cardiology and oncology, with comprehensive health-checkup services.
 
 ## Strengths for international patients
 

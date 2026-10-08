@@ -8,7 +8,6 @@ cities: ["guangzhou"]
 hospital: "Sun Yat-sen First"
 languages: ["English", "中文"]
 coverEmoji: "🌿"
-type: doctor
 summary: "TCM practitioner at Sun Yat-sen First Affiliated Hospital, focusing on acupuncture and integrative care."
 facts:
   - label: "Specialty"

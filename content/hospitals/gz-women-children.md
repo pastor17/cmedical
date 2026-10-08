@@ -6,7 +6,6 @@ draft: false
 specialties: ["pediatrics","ivf","gynecology"]
 cities: ["guangzhou"]
 stages: ["choose", "register", "consult", "pay", "visit"]
-type: hospital
 coverEmoji: "🏥"
 summary: "A major specialized center for women and children in Guangzhou, strong in pediatrics, obstetrics, and reproductive (IVF) medicine."
 accreditations: ["MOH Grade III-A"]
@@ -18,10 +17,22 @@ facts:
     value: "guangzhou"
   - label: "Chinese name"
     value: "广州市妇女儿童医疗中心"
-  - label: "Founded"
-    value: "2009"
   - label: "Level"
     value: "Grade III-A (Three-A)"
+  - label: "Beds"
+    value: "~2,000"
+  - label: "Clinical departments"
+    value: "women & children specialty departments"
+  - label: "Affiliation"
+    value: "Guangzhou Medical University"
+  - label: "Address"
+    value: "No. 1, Liwan, Guangzhou (main campus)"
+  - label: "Founded"
+    value: "2009 (consolidated from Guangzhou Women & Children's Hospital and Guangdong Women & Children's Hospital)"
+  - label: "Ranking"
+    value: "One of the leading specialized women & children's centers in China"
+  - label: "Notable"
+    value: "Strong in pediatrics, obstetrics, and reproductive (IVF) medicine"
 booking:
   onlineForForeigners: true
   channels: ["Phone", "Email", "Official Website"]
@@ -34,6 +45,8 @@ payment:
 ---
 
 广州市妇女儿童医疗中心 (Guangzhou Women and Children's Medical Center) is a leading Grade III-A hospital serving the guangzhou region. It combines a broad range of strong specialties with teaching and research programs, and provides international patient services for foreign patients.
+
+**History & status.** Guangzhou Women and Children's Medical Center (广州市妇女儿童医疗中心), formed in 2009, is a major specialized center for women and children in Guangzhou, strong in pediatrics, obstetrics, and reproductive (IVF) medicine.
 
 ## Strengths for international patients
 
