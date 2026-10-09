@@ -19,20 +19,24 @@ facts:
     value: "Grade III-A (Three-A)"
   - label: "International Dept."
     value: "Yes (English service)"
-  - label: "Beds"
-    value: "~2,500"
   - label: "Clinical departments"
     value: "30+ clinical departments"
   - label: "Affiliation"
     value: "Peking University"
-  - label: "Address"
-    value: "1120 Lianhua Road, Luohu, Shenzhen"
-  - label: "Founded"
-    value: "2004"
   - label: "Ranking"
     value: "Top-50 general hospital in China"
   - label: "Notable"
     value: "A modern Peking University hospital in Shenzhen; strong in cardiology, oncology, and health screening"
+  - label: "Founded"
+    value: "1999 (opened at the end of 1999)"
+  - label: "Beds"
+    value: "~1,800 open beds"
+  - label: "Departments"
+    value: "56 clinical & technical departments"
+  - label: "Address"
+    value: "1120 Lianhua Road, Futian, Shenzhen (59,000 m² site)"
+  - label: "Branch"
+    value: "A Shenzhen–Shanwei (深汕) branch, planned at 800 beds"
 booking:
   onlineForForeigners: true
   channels: ["Phone", "Email", "Official Website"]
@@ -46,7 +50,8 @@ payment:
 
 Peking University Shenzhen Hospital (北京大学深圳医院), founded in 2004, is a modern Grade III-A teaching and referral hospital in Shenzhen. It brings Peking University’s medical strength to the south and is well equipped for a broad range of specialties, including cardiology and oncology.
 
-**History & status.** Peking University Shenzhen Hospital (北京大学深圳医院), founded in 2004, is a modern Grade III-A teaching hospital bringing Peking University's medical strength to Shenzhen. It is well equipped across many specialties, including cardiology and oncology.
+
+**A modern Peking University hospital in Shenzhen.** Peking University Shenzhen Hospital opened at the end of 1999 in Futian's central district (59,000 m² site). It is a large Grade III-A teaching hospital with **~1,800 beds and 56 clinical departments**, and it is expanding with a Shenzhen–Shanwei (深汕) branch (planned 800 beds).
 
 ## Strengths for international patients
 

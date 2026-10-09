@@ -19,20 +19,22 @@ facts:
     value: "四川大学华西第二医院"
   - label: "Level"
     value: "Grade III-A (Three-A)"
-  - label: "Beds"
-    value: "~3,000"
   - label: "Clinical departments"
     value: "40+ clinical departments"
   - label: "Affiliation"
     value: "Sichuan University"
   - label: "Address"
     value: "16 Section 2 South People's Road, Wuhou, Chengdu"
-  - label: "Founded"
-    value: "1929"
   - label: "Ranking"
     value: "Top-20 general hospital in China"
   - label: "Notable"
     value: "A top Sichuan University hospital; strong in pediatrics, obstetrics, and reproductive medicine"
+  - label: "Founded"
+    value: "1896 (originally the Renji Women's Hospital)"
+  - label: "Beds"
+    value: "~1,580 designated beds (Huaxi campus 730 + Jinjiang campus 850)"
+  - label: "National strengths"
+    value: "Obstetrics (a national first-batch clinical key specialty), pediatrics, reproductive medicine"
 booking:
   onlineForForeigners: true
   channels: ["Phone", "Email", "Official Website"]
@@ -46,7 +48,8 @@ payment:
 
 四川大学华西第二医院 (The Second West China Hospital, Sichuan University) is a leading Grade III-A hospital serving the chengdu region. It combines a broad range of strong specialties with teaching and research programs, and provides international patient services for foreign patients.
 
-**History & status.** The Second West China Hospital (华西第二医院 / 四川省妇幼保健院), founded in 1929 and affiliated with Sichuan University, is a top Grade III-A hospital strong in pediatrics, obstetrics, and reproductive medicine, within the West China medical campus.
+
+**A leader in women's & children's care.** The Second West China Hospital (华西第二医院 / 华西妇产儿童医院) dates to 1896 (the Renji Women's Hospital). It is a leading specialized center for **obstetrics, pediatrics, and reproductive medicine** — its obstetrics is a national first-batch clinical key specialty — with ~1,580 designated beds across two campuses.
 
 ## Strengths for international patients
 

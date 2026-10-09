@@ -31,8 +31,10 @@ facts:
     value: "1958"
   - label: "Ranking"
     value: "Top-50 general hospital in China"
+  - label: "Respiratory scale"
+    value: "Respiratory dept ~219 beds incl. RICU; a national referral point for complex respiratory disease"
   - label: "Notable"
-    value: "Strong in cardiology, respiratory (pulmonology), and cardiovascular medicine"
+    value: "Among the earliest centers in China for NPPV (non-invasive ventilation) in respiratory failure"
 booking:
   onlineForForeigners: true
   channels: ["Phone", "Email", "Official Website"]
@@ -46,7 +48,8 @@ payment:
 
 北京朝阳医院 (Beijing Chaoyang Hospital) is a leading Grade III-A hospital serving the beijing region. It combines a broad range of strong specialties with teaching and research programs, and provides international patient services for foreign patients.
 
-**History & status.** Beijing Chaoyang Hospital, founded in 1958 and affiliated with Capital Medical University, is a major general hospital strong in **cardiology** and **respiratory (pulmonology) medicine**, with a comprehensive health-screening program.
+
+**A national respiratory referral center.** Beijing Chaoyang Hospital's respiratory (pulmonology) department is known as a **top referral point for difficult respiratory cases nationwide**, with a respiratory intensive-care unit (RICU). It was among the earliest centers in China to use non-invasive ventilation (NPPV) for respiratory failure.
 
 ## Strengths for international patients
 

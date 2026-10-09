@@ -35,6 +35,12 @@ facts:
     value: "Historically No. 1 among Chinese general hospitals in the Fudan University rankings"
   - label: "Notable"
     value: "China's first case of organ and tissue transplantation; a national referral center"
+  - label: "International dept."
+    value: "International Medical Services, est. 1951 (originally the Foreign Patients Medical Section); serves diplomats, expats, and visiting patients"
+  - label: "Campuses"
+    value: "Dongdan (Wangfujing) + Xidan"
+  - label: "International services"
+    value: "Regular / evening / VIP (special-appointment) clinics; dedicated health-management & endoscopy centers; palliative (安宁) care program"
 booking:
   onlineForForeigners: true
   channels: ["Phone", "Email", "Official Website"]
@@ -48,7 +54,8 @@ payment:
 
 Peking Union Medical College Hospital (PUMCH), founded in 1921, is one of the oldest and most respected hospitals in China and a flagship of the national medical system. It is consistently ranked among the top general hospitals in the country and is a key referral center for complex cases.
 
-**History & status.** PUMCH was founded in 1921 by the Rockefeller Foundation with Chinese physicians and has since been a flagship of the national medical system. It runs two campuses (the original Dongdan/Wangfujing campus and the Xidan second campus) and is consistently ranked among the very top general hospitals in China.
+
+**International patient services.** The International Medical Services department (国际医疗部) was established in 1951 — originally the Foreign Patients Medical Section — and has long served visiting heads of state, diplomatic missions, and foreign patients. It offers regular, evening, and VIP special-appointment clinics, with dedicated health-management and endoscopy centers at the Dongdan campus and a parallel unit at Xidan. It also runs a palliative-care (安宁缓和医疗) program — one of the more comprehensive international-patient services in China.
 
 ## Strengths for international patients
 

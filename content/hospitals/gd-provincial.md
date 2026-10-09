@@ -33,6 +33,12 @@ facts:
     value: "Top-30 general hospital in China"
   - label: "Notable"
     value: "Strong in cardiology, oncology, and comprehensive health-checkup services"
+  - label: "Cardio center"
+    value: "Home to the Guangdong Cardiovascular Hospital (a joint cardiovascular center)"
+  - label: "International"
+    value: "Selected as one of Guangdong's international medical service pilot hospitals"
+  - label: "Recognition"
+    value: "Cardiac & great-vessel surgery won Guangdong's provincial quality award"
 booking:
   onlineForForeigners: true
   channels: ["Phone", "Email", "Official Website"]
@@ -46,7 +52,8 @@ payment:
 
 广东省人民医院 (Guangdong Provincial People's Hospital) is a leading Grade III-A hospital serving the guangzhou region. It combines a broad range of strong specialties with teaching and research programs, and provides international patient services for foreign patients.
 
-**History & status.** Guangdong Provincial People's Hospital (广东省人民医院), founded in 1946, is a top provincial Grade III-A hospital in Guangzhou, strong in cardiology and oncology, with comprehensive health-checkup services.
+
+**A cardiovascular powerhouse.** Guangdong Provincial People's Hospital (省医), founded in 1946, is a leading cardiovascular center — it operates the **Guangdong Cardiovascular Hospital** jointly, and its cardiac & great-vessel surgery won Guangdong's provincial quality award. It was also selected as one of the province's **international medical service pilot hospitals**, a good sign for foreign patients.
 
 ## Strengths for international patients
 

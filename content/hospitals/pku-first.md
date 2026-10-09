@@ -32,7 +32,7 @@ facts:
   - label: "Ranking"
     value: "Top-12 in the Fudan University China Hospital Top 100 (general)"
   - label: "National firsts"
-    value: "China's first kidney transplant (1960); first urology dept (1946); first nephrology dept (1950); first pediatric neurology (1961)"
+    value: "China's first kidney transplant (1960); first urology (1946); first nephrology dept (1950); first pediatric neurology (1961)"
 booking:
   onlineForForeigners: true
   channels: ["Phone", "Email", "Official Website"]
@@ -46,7 +46,8 @@ payment:
 
 北京大学第一医院 (Peking University First Hospital) is a leading Grade III-A hospital serving the beijing region. It combines a broad range of strong specialties with teaching and research programs, and provides international patient services for foreign patients.
 
-**History & status.** Founded in 1915, Peking University First Hospital (北大医院) is a Central Government Designated Hospital and a leading academic medical center of Peking University. It is especially renowned for **nephrology (kidney)** and **urology** — both national leaders — and pioneered several 'firsts' in Chinese medicine.
+
+**Nephrology is world-renowned.** Peking University First Hospital's kidney (nephrology) department is **consistently ranked No. 1 in China** and is regarded as the cradle of the country's nephrology discipline (founded by Wang Shuxian, one of its founders). The hospital is expanding, with new campuses (Daxing) under construction and a large network of affiliated/teaching hospitals.
 
 ## Strengths for international patients
 

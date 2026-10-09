@@ -33,6 +33,10 @@ facts:
     value: "The leading specialized cancer hospital in China"
   - label: "Notable"
     value: "A national cancer research and treatment center; strong in targeted & immunotherapy"
+  - label: "Firsts"
+    value: "China's first oncology (medical) department, founded 1959"
+  - label: "Shenzhen branch"
+    value: "A National Regional Medical Center; 24 inpatient wards, ~880 beds (expanding to ~2,300)"
 booking:
   onlineForForeigners: true
   channels: ["Phone", "Email", "Official Website"]
@@ -46,7 +50,8 @@ payment:
 
 中国医学科学院肿瘤医院 (Cancer Hospital, Chinese Academy of Medical Sciences) is a leading Grade III-A hospital serving the beijing region. It combines a broad range of strong specialties with teaching and research programs, and provides international patient services for foreign patients.
 
-**History & status.** The Cancer Hospital, Chinese Academy of Medical Sciences (中国医学科学院肿瘤医院), is **China's leading specialized cancer hospital**. It combines a major cancer treatment center with national cancer research, and is a reference point for complex oncology cases nationwide.
+
+**China's first oncology department.** The hospital's medical oncology department, founded in 1959, is **China's first** specialized medical-oncology unit. It is a National Cancer Center with active research published in leading journals (Lancet, JAMA sub-journals), and it runs a **Shenzhen branch** designated a National Regional Medical Center (~880 beds, expanding to ~2,300).
 
 ## Strengths for international patients
 

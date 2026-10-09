@@ -19,8 +19,6 @@ facts:
     value: "浙江大学医学院附属第二医院"
   - label: "Level"
     value: "Grade III-A (Three-A)"
-  - label: "Beds"
-    value: "~4,000"
   - label: "Clinical departments"
     value: "50+ clinical departments"
   - label: "Affiliation"
@@ -33,6 +31,12 @@ facts:
     value: "Top-15 general hospital in China"
   - label: "Notable"
     value: "Strong in cardiology, oncology, and dental care; a major health-checkup program"
+  - label: "Beds"
+    value: "~3,200 approved beds"
+  - label: "Departments"
+    value: "58 clinical departments"
+  - label: "Utilization"
+    value: "~98% bed-usage rate"
 booking:
   onlineForForeigners: true
   channels: ["Phone", "Email", "Official Website"]
@@ -46,7 +50,8 @@ payment:
 
 浙江大学医学院附属第二医院 (The Second Affiliated Hospital, Zhejiang University) is a leading Grade III-A hospital serving the hangzhou region. It combines a broad range of strong specialties with teaching and research programs, and provides international patient services for foreign patients.
 
-**History & status.** The Second Affiliated Hospital of Zhejiang University (浙大二院), founded in 1947, is a leading Hangzhou Grade III-A hospital, strong in cardiology, oncology, and dental care, with a major health-checkup program.
+
+**A large, high-throughput hospital.** The Second Affiliated Hospital of Zhejiang University (浙大二院) is a large Grade III-A hospital with **~3,200 approved beds and 58 clinical departments**, running at a very high bed-utilization rate (~98%). It is strong in cardiology, oncology, and critical care.
 
 ## Strengths for international patients
 

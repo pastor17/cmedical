@@ -31,8 +31,10 @@ facts:
     value: "1958 (originally as the Guangzhou General Hospital / Nanfang Hospital)"
   - label: "Ranking"
     value: "Top-20 general hospital in China"
+  - label: "Network"
+    value: "Part of Southern Medical University (13 affiliated hospitals, 12,600+ beds in total)"
   - label: "Notable"
-    value: "Strong in cardiology, oncology, neurosurgery, and orthopedics"
+    value: "A major teaching & referral hospital in Guangzhou"
 booking:
   onlineForForeigners: true
   channels: ["Phone", "Email", "Official Website"]
@@ -46,7 +48,8 @@ payment:
 
 南方医科大学第一附属医院 (The First Affiliated Hospital, Southern Medical University) is a leading Grade III-A hospital serving the guangzhou region. It combines a broad range of strong specialties with teaching and research programs, and provides international patient services for foreign patients.
 
-**History & status.** The First Affiliated Hospital of Southern Medical University (南方医科大学第一附属医院 / 南方医院), founded in 1958, is a leading Guangzhou Grade III-A hospital, strong in cardiology, oncology, and neurosurgery, with a strong international patient program.
+
+**A major Southern Medical University teaching hospital.** The First Affiliated Hospital of Southern Medical University (南方医院 / Nanfang Hospital) is a large Grade III-A teaching and referral hospital, part of Southern Medical University's network of 13 affiliated hospitals (12,600+ beds combined).
 
 ## Strengths for international patients
 

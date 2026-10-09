@@ -31,8 +31,12 @@ facts:
     value: "1952 (originally Shanghai Ophthalmology Hospital)"
   - label: "Ranking"
     value: "One of the highest-volume eye centers in the world; world-leading in ophthalmology"
+  - label: "Type"
+    value: "A Grade III-A specialized ophthalmology & ENT hospital"
+  - label: "Departments"
+    value: "Ophthalmology, otolaryngology (ENT), and ophthalmo-plastic/ENT reconstruction"
   - label: "National strengths"
-    value: "Cataract, refractive, retina, and glaucoma — all at world-leading volume"
+    value: "Cataract & refractive surgery (among the highest volumes in the world), retina, glaucoma"
 booking:
   onlineForForeigners: true
   channels: ["Phone", "Email", "Official Website"]
@@ -46,7 +50,8 @@ payment:
 
 复旦大学附属眼耳鼻喉科医院（上海五官科医院） (Shanghai Eye Center, Fudan University) is a leading Grade III-A hospital serving the shanghai region. It combines a broad range of strong specialties with teaching and research programs, and provides international patient services for foreign patients.
 
-**History & status.** Shanghai Eye Center (Fudan University Eye & ENT Hospital, 复旦附属眼耳鼻喉科医院 / 上海五官科医院) is a **world-class specialized eye and ENT center** — one of the highest-volume ophthalmology hospitals in the world, renowned for cataract, refractive (LASIK/SMILE), retina, and glaucoma surgery.
+
+**A world-leading eye & ENT center.** Shanghai Eye Center (Fudan University Eye & ENT Hospital, 复旦附属眼耳鼻喉科医院) is a **Grade III-A specialized ophthalmology and ENT hospital**. Its ophthalmology is one of the highest-volume eye departments in the world, with advanced cataract (modern intraocular lens) and refractive surgery, plus retina and glaucoma programs.
 
 ## Strengths for international patients
 

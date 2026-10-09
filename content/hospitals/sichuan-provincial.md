@@ -19,8 +19,6 @@ facts:
     value: "四川省人民医院"
   - label: "Level"
     value: "Grade III-A (Three-A)"
-  - label: "Beds"
-    value: "~3,500"
   - label: "Clinical departments"
     value: "40+ clinical departments"
   - label: "Affiliation"
@@ -33,6 +31,14 @@ facts:
     value: "The leading provincial hospital in Sichuan"
   - label: "Notable"
     value: "Strong in cardiology, orthopedics, and oncology; comprehensive health-checkup services"
+  - label: "Beds"
+    value: "~4,500 open beds"
+  - label: "Staff"
+    value: "7,000+ employees"
+  - label: "Focus"
+    value: "A major center for complex, critical (疑难危重) cases"
+  - label: "Volume"
+    value: "~160,000 inpatient discharges/year"
 booking:
   onlineForForeigners: true
   channels: ["Phone", "Email", "Official Website"]
@@ -46,7 +52,8 @@ payment:
 
 四川省人民医院 (Sichuan Provincial People's Hospital) is a leading Grade III-A hospital serving the chengdu region. It combines a broad range of strong specialties with teaching and research programs, and provides international patient services for foreign patients.
 
-**History & status.** Sichuan Provincial People's Hospital (四川省人民医院), founded in 1917, is a leading provincial Grade III-A hospital in Chengdu, strong in cardiology, orthopedics, and oncology, with comprehensive health-checkup services.
+
+**A major center for complex cases.** Sichuan Provincial People's Hospital (四川省人民医院) is a large Grade III-A hospital with **~4,500 open beds and 7,000+ staff**, focused on complex and critical cases, with ~160,000 inpatient discharges a year. It is strong in cardiology, orthopedics, and oncology.
 
 ## Strengths for international patients
 

@@ -31,8 +31,12 @@ facts:
     value: "1874 (originally as a US Episcopal mission hospital)"
   - label: "Ranking"
     value: "World No. 1 in Neurosurgery and Dermatology (2018–2023 specialty rankings)"
+  - label: "Neurosurgery scale"
+    value: "Neurosurgery 700+ beds (incl. 150+ neuro-ICU), 30 dedicated operating rooms with intra-operative MRI"
+  - label: "Campuses"
+    value: "Main (Urumqi Rd) + Hongqiao + East + West campuses"
   - label: "National firsts"
-    value: "China's first heart-lung transplant (1997); 12 National Clinical Key Specialties; 10 National Laboratories"
+    value: "China's first heart-lung transplant (1997); world-leading neurosurgery & dermatology"
 booking:
   onlineForForeigners: true
   channels: ["Phone", "Email", "Official Website"]
@@ -46,7 +50,8 @@ payment:
 
 复旦大学附属华山医院 (Huashan Hospital, Fudan University) is a leading Grade III-A hospital serving the shanghai region. It combines a broad range of strong specialties with teaching and research programs, and provides international patient services for foreign patients.
 
-**History & status.** Huashan Hospital (华山医院), founded in 1874 and named after Sun Yat-sen, is a top Shanghai Grade III-A hospital affiliated with Fudan University. It is **world-class in neurosurgery and dermatology** (ranked world No. 1 in both in recent specialty rankings) and pioneered China's first heart-lung transplant in 1997.
+
+**World-class neurosurgery & dermatology.** Huashan Hospital is a National Health Commission-affiliated top hospital with **world-leading neurosurgery and dermatology**. Its neurosurgery runs 700+ beds (including 150+ neuro-ICU beds) and 30 dedicated operating rooms equipped with intra-operative MRI — among the most advanced neurosurgical facilities in the country. It is a multi-campus hospital (main, Hongqiao, east, west).
 
 ## Strengths for international patients
 

@@ -31,8 +31,10 @@ facts:
     value: "2009"
   - label: "Ranking"
     value: "One of the leading children's hospitals in the Pearl River Delta"
+  - label: "Scale"
+    value: "Expanding to ~4,000 total beds across campuses (Longhua campus being built)"
   - label: "Notable"
-    value: "Specialized pediatric center for complex pediatric conditions"
+    value: "One of the region's largest children's hospitals"
 booking:
   onlineForForeigners: true
   channels: ["Phone", "Email", "Official Website"]
@@ -46,7 +48,8 @@ payment:
 
 深圳市儿童医院 (Shenzhen Children's Medical Center) is a leading Grade III-A hospital serving the shenzhen region. It combines a broad range of strong specialties with teaching and research programs, and provides international patient services for foreign patients.
 
-**History & status.** Shenzhen Children's Medical Center (深圳市儿童医院), founded in 2009, is a specialized pediatric center and one of the region's leading children's hospitals for complex pediatric conditions.
+
+**One of the region's largest children's hospitals.** Shenzhen Children's Medical Center (深圳市儿童医院) is a specialized pediatric center that is **expanding to ~4,000 total beds** across its campuses (including the new Longhua campus), making it one of the largest children's hospitals in the Pearl River Delta.
 
 ## Strengths for international patients
 

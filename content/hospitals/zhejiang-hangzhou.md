@@ -33,6 +33,8 @@ facts:
     value: "Top-10 general hospital in China"
   - label: "National strengths"
     value: "Cardiology (a nationally recognized heart center), organ transplant, oncology"
+  - label: "Notable"
+    value: "A leading general hospital in east China; a major organ-transplant center"
 booking:
   onlineForForeigners: true
   channels: ["Phone", "Email", "Official Website"]
@@ -46,7 +48,8 @@ payment:
 
 The First Affiliated Hospital of Zhejiang University School of Medicine (浙江大学医学院附属第一医院), founded in 1947, is one of the leading general hospitals in east China. It is a major referral and research center, particularly well known for cardiology, organ transplantation, and oncology.
 
-**History & status.** The First Affiliated Hospital of Zhejiang University School of Medicine (浙大一院), founded in 1947, is one of the leading general hospitals in east China and a top-10 hospital nationally. It is especially strong in **cardiology** and **organ transplantation**.
+
+**A top east-China general hospital.** The First Affiliated Hospital of Zhejiang University (浙大一院) is one of the leading general hospitals in east China, especially strong in **cardiology** and **organ transplantation**, and a major referral and teaching center.
 
 ## Strengths for international patients
 

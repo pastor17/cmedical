@@ -31,8 +31,10 @@ facts:
     value: "2009 (consolidated from Guangzhou Women & Children's Hospital and Guangdong Women & Children's Hospital)"
   - label: "Ranking"
     value: "One of the leading specialized women & children's centers in China"
+  - label: "Type"
+    value: "A specialized women & children's medical center"
   - label: "Notable"
-    value: "Strong in pediatrics, obstetrics, and reproductive (IVF) medicine"
+    value: "A leading regional center for pediatrics, obstetrics, and reproductive (IVF) medicine"
 booking:
   onlineForForeigners: true
   channels: ["Phone", "Email", "Official Website"]
@@ -46,7 +48,8 @@ payment:
 
 广州市妇女儿童医疗中心 (Guangzhou Women and Children's Medical Center) is a leading Grade III-A hospital serving the guangzhou region. It combines a broad range of strong specialties with teaching and research programs, and provides international patient services for foreign patients.
 
-**History & status.** Guangzhou Women and Children's Medical Center (广州市妇女儿童医疗中心), formed in 2009, is a major specialized center for women and children in Guangzhou, strong in pediatrics, obstetrics, and reproductive (IVF) medicine.
+
+**A specialized women & children's center.** Guangzhou Women and Children's Medical Center (广州市妇女儿童医疗中心) is a specialized Grade III-A center for women and children, strong in **pediatrics, obstetrics, and reproductive (IVF) medicine**.
 
 ## Strengths for international patients
 

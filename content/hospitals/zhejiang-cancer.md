@@ -19,8 +19,6 @@ facts:
     value: "浙江省肿瘤医院"
   - label: "Level"
     value: "Grade III-A (Three-A)"
-  - label: "Beds"
-    value: "~2,000"
   - label: "Clinical departments"
     value: "30+ clinical & research departments"
   - label: "Affiliation"
@@ -33,6 +31,12 @@ facts:
     value: "The leading specialized cancer hospital in Zhejiang"
   - label: "Notable"
     value: "A major regional center for cancer diagnosis, surgery, and treatment"
+  - label: "Beds"
+    value: "~2,000 open beds"
+  - label: "Departments"
+    value: "51 business departments (oncology surgery, medical oncology, radiotherapy, etc.)"
+  - label: "Branch"
+    value: "A Shaoxing branch under construction (2,500 beds, ¥6B+ investment)"
 booking:
   onlineForForeigners: true
   channels: ["Phone", "Email", "Official Website"]
@@ -46,7 +50,8 @@ payment:
 
 浙江省肿瘤医院 (Zhejiang Cancer Hospital) is a leading Grade III-A hospital serving the hangzhou region. It combines a broad range of strong specialties with teaching and research programs, and provides international patient services for foreign patients.
 
-**History & status.** Zhejiang Cancer Hospital (浙江省肿瘤医院), founded in 1963, is a specialized cancer hospital and a major regional center for cancer diagnosis, surgery, and treatment in Zhejiang.
+
+**Zhejiang's leading cancer hospital.** Zhejiang Cancer Hospital (浙江省肿瘤医院) is the province's leading specialized cancer hospital, with **~2,000 open beds and 51 departments**, and a large **Shaoxing branch** under construction (2,500 beds, ¥6B+ investment).
 
 ## Strengths for international patients
 

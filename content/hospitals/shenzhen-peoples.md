@@ -19,20 +19,24 @@ facts:
     value: "深圳市人民医院"
   - label: "Level"
     value: "Grade III-A (Three-A)"
-  - label: "Beds"
-    value: "~3,000"
   - label: "Clinical departments"
     value: "40+ clinical departments"
   - label: "Affiliation"
     value: "Shenzhen University School of Medicine"
   - label: "Address"
     value: "1239 Lianhua Road, Luohu, Shenzhen (main); Futian (second campus)"
-  - label: "Founded"
-    value: "1946"
   - label: "Ranking"
     value: "The leading general hospital in Shenzhen"
   - label: "Notable"
     value: "Strong in cardiology, oncology, neurosurgery; a modern health-checkup center"
+  - label: "Founded"
+    value: "1946 (originally Bao'an County People's Hospital)"
+  - label: "Beds"
+    value: "~2,500+ open beds"
+  - label: "Staff"
+    value: "4,700+ employees"
+  - label: "Campuses"
+    value: "Main + Bantian (坂田) campus"
 booking:
   onlineForForeigners: true
   channels: ["Phone", "Email", "Official Website"]
@@ -46,7 +50,8 @@ payment:
 
 深圳市人民医院 (Shenzhen People's Hospital) is a leading Grade III-A hospital serving the shenzhen region. It combines a broad range of strong specialties with teaching and research programs, and provides international patient services for foreign patients.
 
-**History & status.** Shenzhen People's Hospital (深圳市人民医院), founded in 1946, is the leading general Grade III-A hospital in Shenzhen, strong in cardiology, oncology, and neurosurgery, with a modern health-checkup center.
+
+**Shenzhen's leading general hospital.** Shenzhen People's Hospital was founded in 1946 (originally Bao'an County People's Hospital) and is the **leading general Grade III-A hospital in Shenzhen**, with ~2,500+ beds, 4,700+ staff, and a modern Bantian (坂田) campus.
 
 ## Strengths for international patients
 

@@ -29,10 +29,14 @@ facts:
     value: "44 Changchun Road, Xicheng, Beijing"
   - label: "Founded"
     value: "1958"
-  - label: "Ranking"
-    value: "Top-30 general; consistently #1 nationally in neurology & neurosurgery in specialty rankings"
   - label: "Notable"
     value: "A national referral center for neurology, neurosurgery, and neuro-rehabilitation"
+  - label: "Neurology scale"
+    value: "Neurology ~400 beds, 20 sub-specialties, 30 attending groups, 500,000+ outpatient visits/year"
+  - label: "Neurosurgery scale"
+    value: "Neurosurgery ~345 beds, 74 physicians, 206 nurses, 13 operating rooms (incl. 2 hybrid)"
+  - label: "Ranking"
+    value: "A National Neurological Disease Medical Center; among the top neurology/neurosurgery hospitals in China"
 booking:
   onlineForForeigners: true
   channels: ["Phone", "Email", "Official Website"]
@@ -46,7 +50,8 @@ payment:
 
 北京大学宣武医院 (Peking University Xuanwu Hospital) is a leading Grade III-A hospital serving the beijing region. It combines a broad range of strong specialties with teaching and research programs, and provides international patient services for foreign patients.
 
-**History & status.** Peking University Xuanwu Hospital (宣武医院), founded in 1958, is a national referral center best known for **neurology and neurosurgery** — consistently ranked first in the country for these specialties. It handles a very high volume of complex brain, spine, and neurological cases, including stroke and neuro-rehabilitation.
+
+**A national neurology & neurosurgery center.** Xuanwu is designated a **National Neurological Disease Medical Center**. Its neurology department runs ~400 beds with 20 sub-specialties and handles over 500,000 outpatient visits a year; neurosurgery operates 13 operating rooms (including hybrid rooms) for complex brain and spine surgery.
 
 ## Strengths for international patients
 

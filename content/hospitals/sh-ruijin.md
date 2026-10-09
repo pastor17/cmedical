@@ -27,12 +27,12 @@ facts:
     value: "Shanghai Jiao Tong University School of Medicine"
   - label: "Address"
     value: "197 Ruijin 2nd Road, Huangpu, Shanghai"
-  - label: "Founded"
-    value: "1907 (originally St. Marie Hospital, run by the Catholic Kiangnan Mission)"
   - label: "Staff"
     value: "6,000+ employees"
+  - label: "Founded"
+    value: "1907 (originally the Guangci Hospital, run by the Methodist Church)"
   - label: "National strengths"
-    value: "Diabetology/endocrinology, hematology, cardiology, and a major health-checkup program"
+    value: "Endocrinology/diabetology (a national leader), hematology (leukemia), cardiology"
 booking:
   onlineForForeigners: true
   channels: ["Phone", "Email", "Official Website"]
@@ -46,7 +46,8 @@ payment:
 
 上海交通大学医学院附属瑞金医院 (Ruijin Hospital, Shanghai Jiao Tong University) is a leading Grade III-A hospital serving the shanghai region. It combines a broad range of strong specialties with teaching and research programs, and provides international patient services for foreign patients.
 
-**History & status.** Ruijin Hospital (瑞金医院), founded in 1907 and formerly St. Marie Hospital, is a historic top Shanghai Grade III-A hospital affiliated with Shanghai Jiao Tong University. It is **nationally renowned for diabetology (endocrinology)** and hematology, with strong cardiovascular and health-screening programs.
+
+**A leader in diabetes & hematology.** Ruijin Hospital, founded in 1907 (originally the Guangci Hospital), is **nationally renowned for endocrinology/diabetology** — one of the country's top centers for diabetes and thyroid disease — and for **hematology (leukemia)**. It runs a multidisciplinary diabetes-foot center and strong cardiovascular programs.
 
 ## Strengths for international patients
 

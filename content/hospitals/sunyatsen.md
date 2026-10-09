@@ -33,6 +33,10 @@ facts:
     value: "Top-10 general hospital in China"
   - label: "Notable"
     value: "One of the leading general hospitals in southern China; strong in integrative (TCM + modern) care"
+  - label: "Surgical scale"
+    value: "Main campus has 50+ operating rooms"
+  - label: "Branches"
+    value: "Guangxi, Nansha, and Guizhou branches under construction/operation"
 booking:
   onlineForForeigners: true
   channels: ["Phone", "Email", "Official Website"]
@@ -46,7 +50,8 @@ payment:
 
 The First Affiliated Hospital of Sun Yat-sen University (中山大学附属第一医院), founded in 1926, is one of the leading general hospitals in southern China and a major referral, teaching, and research center. It is well known for its breadth of specialties and its integration of modern medicine with Traditional Chinese Medicine.
 
-**History & status.** The First Affiliated Hospital of Sun Yat-sen University (中山一院), founded in 1926, is one of the leading general hospitals in southern China and a top-10 hospital nationally. It is a major referral and teaching center, well known for breadth of specialties and integrative (TCM + modern) medicine.
+
+**A leading general hospital in the south.** The First Affiliated Hospital of Sun Yat-sen University (中山一院) is one of the leading general hospitals in southern China, with a large main-campus surgical complex (50+ operating rooms) and an expanding network of regional branches (Guangxi, Nansha, Guizhou).
 
 ## Strengths for international patients
 

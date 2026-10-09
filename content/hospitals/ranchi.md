@@ -19,20 +19,22 @@ facts:
     value: "Grade III-A (Three-A)"
   - label: "International Dept."
     value: "Yes (English service)"
-  - label: "Beds"
-    value: "~3,500"
   - label: "Clinical departments"
     value: "35+ clinical departments"
   - label: "Affiliation"
     value: "Shanghai Jiao Tong University School of Medicine"
   - label: "Address"
     value: "145 Jianguo West Road, Huangpu, Shanghai (main); Pudong & Jiading campuses"
-  - label: "Founded"
-    value: "1844 (as Wade Memorial Hospital — the earliest Western-style hospital in Shanghai)"
   - label: "Ranking"
     value: "~#8 in the Fudan University China Hospital Top 100 (2022)"
+  - label: "Founded"
+    value: "1844 (Wade Memorial Hospital — the first Western-style hospital after Shanghai's opening)"
+  - label: "Beds"
+    value: "~2,250 designated beds"
+  - label: "Departments"
+    value: "50+ clinical & technical departments"
   - label: "National strengths"
-    value: "Hepatobiliary, neurosurgery, urology, ENT, cardiovascular, infectious diseases (hepatitis)"
+    value: "Gastroenterology (a national leader), organ transplant, urology, neurosurgery, cardiovascular"
 booking:
   onlineForForeigners: true
   channels: ["Phone", "Email", "Official Website"]
@@ -46,7 +48,8 @@ payment:
 
 Renji Hospital (瑞金医院), founded in 1907 and affiliated with Shanghai Jiao Tong University’s School of Medicine, is one of China’s premier Grade III-A general hospitals. It is a major referral and teaching center and is consistently ranked among the leading hospitals in the country.
 
-**History & status.** Renji Hospital (仁济医院) traces to 1844, when it was founded as Wade Memorial Hospital by the American USPG — the **earliest Western-style hospital in Shanghai**. It is a top Shanghai Grade III-A hospital affiliated with Shanghai Jiao Tong University, strong in hepatobiliary disease, neurosurgery, urology, and cardiovascular care.
+
+**The first Western-style hospital in Shanghai.** Renji Hospital was founded in 1844 as Wade Memorial Hospital, the **first Western-style hospital after Shanghai opened as a treaty port**. It is a large modern Grade III-A hospital (~2,250 beds, 50+ departments), especially strong in **gastroenterology, organ transplant, urology, and neurosurgery**.
 
 ## Strengths for international patients
 
