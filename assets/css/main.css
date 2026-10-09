@@ -267,7 +267,7 @@ h1, h2, h3, h4 { line-height: 1.3; color: var(--ink); margin: 0 0 0.5em; font-we
 /* ---------- footer ---------- */
 .site-footer { background: var(--ink); color: #c5d2df; padding: 50px 0 30px; margin-top: 20px; }
 .site-footer h2, .site-footer h3 { color: #fff; }
-.site-footer__grid { display: grid; grid-template-columns: 1.3fr 1fr 1fr 1fr 1fr; gap: 24px; }
+.site-footer__grid { display: grid; grid-template-columns: 1.3fr 1fr 1fr 1fr 1fr 1fr; gap: 22px; }
 .site-footer__about p { font-size: 0.9rem; color: #9fb2c4; }
 .site-footer__contact { font-size: 0.88rem; }
 .site-footer__col h3 { font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 12px; }
